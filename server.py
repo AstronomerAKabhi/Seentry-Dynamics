@@ -27,8 +27,13 @@ app = FastAPI(title="Behavioral FIM")
 # ── Setup ─────────────────────────────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
+STATIC_DIR = os.path.join(BASE_DIR, "static")
 os.makedirs(TEMPLATES_DIR, exist_ok=True)
+os.makedirs(STATIC_DIR, exist_ok=True)
 templates = Jinja2Templates(directory=TEMPLATES_DIR)
+
+from fastapi.staticfiles import StaticFiles  # type: ignore[import-untyped]
+app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 # Engine singletons
 behavioral_engine = BehavioralEngine()
