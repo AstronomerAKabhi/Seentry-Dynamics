@@ -1,0 +1,8 @@
+watchdog
+psutil
+fastapi
+uvicorn
+websockets
+scikit-learn
+numpy
+pandas

@@ -1,0 +1,1624 @@
+2025-12-03 17:58:30,388 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 17:58:30,388 - INFO - Starting monitor on: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored
+2025-12-03 17:59:11,938 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 17:59:11,939 - INFO - Starting monitor on: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored
+2025-12-03 17:59:56,037 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 17:59:56,038 - INFO - Starting monitor on: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored
+2025-12-03 18:00:28,464 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:00:28,465 - INFO - Starting monitor on: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored
+2025-12-03 18:01:05,565 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:01:05,566 - INFO - Starting monitor on: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored
+2025-12-03 18:03:30,428 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:03:30,429 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:04:06,299 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:04:06,300 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:04:20,183 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:04:20,184 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:04:20,185 - INFO - Scanning C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored, found 1 files
+2025-12-03 18:04:20,185 - INFO - Checking C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\test_file.txt
+2025-12-03 18:04:21,187 - INFO - Scanning C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored, found 1 files
+2025-12-03 18:04:21,187 - INFO - Checking C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\test_file.txt
+2025-12-03 18:04:22,190 - INFO - Scanning C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored, found 1 files
+2025-12-03 18:04:22,190 - INFO - Checking C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\test_file.txt
+2025-12-03 18:04:23,193 - INFO - Scanning C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored, found 1 files
+2025-12-03 18:04:23,193 - INFO - Checking C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\test_file.txt
+2025-12-03 18:04:24,194 - INFO - Scanning C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored, found 1 files
+2025-12-03 18:04:24,194 - INFO - Checking C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\test_file.txt
+2025-12-03 18:04:25,199 - INFO - Scanning C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored, found 1 files
+2025-12-03 18:04:25,200 - INFO - Checking C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\test_file.txt
+2025-12-03 18:08:39,136 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:08:39,136 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:08:39,152 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 18:08:39,154 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak
+2025-12-03 18:08:39,155 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml
+2025-12-03 18:08:39,156 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat
+2025-12-03 18:09:19,009 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:09:19,010 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:09:19,010 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 18:09:19,010 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 18:09:19,011 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 18:09:19,011 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 18:09:26,040 - INFO - DEBUG: Detected modification for C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 18:09:47,894 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:09:47,895 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:09:47,895 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 18:09:47,896 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 18:09:47,896 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 18:09:47,896 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 18:09:54,926 - INFO - DEBUG: Detected modification for C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 18:10:18,172 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:10:18,173 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:10:18,174 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 18:10:18,174 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 18:10:18,174 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 18:10:18,175 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 18:10:25,202 - INFO - DEBUG: Detected modification for C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 18:10:25,203 - INFO - DEBUG: Checking canary for C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt: True
+2025-12-03 18:10:57,044 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:10:57,044 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:10:57,045 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 18:10:57,046 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 18:10:57,046 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 18:10:57,046 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 18:11:04,070 - INFO - DEBUG: Detected modification for C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 18:11:04,070 - INFO - DEBUG: Checking canary for C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt: True
+2025-12-03 18:11:04,070 - INFO - DEBUG: Canary detected! Identifying process...
+2025-12-03 18:14:09,776 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:14:09,777 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:14:09,777 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 18:14:09,778 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 18:14:09,778 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 18:14:09,778 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 18:14:16,812 - INFO - DEBUG: Detected modification for C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 18:14:16,813 - INFO - DEBUG: Checking canary for C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt: True
+2025-12-03 18:14:16,813 - INFO - DEBUG: Canary detected! Identifying process...
+2025-12-03 18:14:47,468 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:14:47,469 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:14:47,469 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 18:14:47,470 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 18:14:47,470 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 18:14:47,470 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 18:14:54,507 - INFO - DEBUG: Detected modification for C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 18:14:54,508 - INFO - DEBUG: Checking canary for C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt: True
+2025-12-03 18:14:54,508 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 18:14:54,508 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-03 18:14:54,508 - INFO - DEBUG: Canary detected! Identifying process...
+2025-12-03 18:27:52,983 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:27:52,987 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 18:27:52,988 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:27:52,994 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 18:27:52,995 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 18:27:52,995 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 18:27:52,995 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 18:27:57,030 - ERROR - Error scanning C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored: name 'is_canary' is not defined
+2025-12-03 18:32:49,238 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:32:49,242 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 18:32:49,243 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:32:49,249 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 18:32:49,251 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 18:32:49,252 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 18:32:49,253 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 18:35:55,349 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 18:35:55,350 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 18:35:55,352 - INFO - Starting Manual FIM Monitor...
+2025-12-03 18:35:55,352 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 18:35:55,353 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 18:35:55,353 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 18:35:55,353 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 18:36:06,392 - ERROR - Error scanning C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored: name 'is_canary' is not defined
+2025-12-03 21:26:28,144 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 21:26:28,147 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 21:26:28,148 - INFO - Starting Manual FIM Monitor...
+2025-12-03 21:26:28,149 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 21:26:28,150 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 21:26:28,150 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 21:26:28,154 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 21:26:38,194 - ERROR - Error scanning C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored: name 'is_canary' is not defined
+2025-12-03 21:31:10,937 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 21:31:10,938 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 21:31:10,939 - INFO - Starting Manual FIM Monitor...
+2025-12-03 21:31:10,940 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 21:31:10,942 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 21:31:10,946 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 21:31:10,946 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 21:52:41,289 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 21:52:41,290 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 21:52:41,293 - INFO - Starting Manual FIM Monitor...
+2025-12-03 21:52:41,296 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 21:52:41,298 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 21:52:41,302 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 21:52:41,304 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 22:05:20,801 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 22:05:20,803 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 22:05:20,804 - INFO - Starting Manual FIM Monitor...
+2025-12-03 22:05:20,805 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 22:05:20,806 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 22:05:20,806 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 22:05:20,807 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 22:05:31,850 - ERROR - Error scanning C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored: name 'is_canary' is not defined
+2025-12-03 22:20:40,310 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 22:20:40,310 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 22:20:40,314 - INFO - Starting Manual FIM Monitor...
+2025-12-03 22:20:40,316 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 22:20:40,321 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 22:20:40,323 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 22:20:40,324 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 22:27:03,265 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 22:27:03,267 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 22:27:03,273 - INFO - Starting Manual FIM Monitor...
+2025-12-03 22:27:03,286 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 22:27:03,292 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 22:27:03,295 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 22:27:03,297 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 22:27:23,390 - ERROR - Error scanning C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored: name 'is_canary' is not defined
+2025-12-03 22:29:25,950 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 22:29:25,951 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 22:29:25,951 - INFO - Starting Manual FIM Monitor...
+2025-12-03 22:29:25,952 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 22:29:25,952 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 22:29:25,952 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 22:29:25,953 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 22:34:28,693 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 22:34:28,694 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 22:34:28,697 - INFO - Starting Manual FIM Monitor...
+2025-12-03 22:34:28,713 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 22:34:28,716 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 22:34:28,718 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 22:34:28,722 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 22:39:59,447 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 22:39:59,442 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 22:39:59,448 - INFO - Starting Manual FIM Monitor...
+2025-12-03 22:39:59,448 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 22:39:59,449 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 22:39:59,449 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 22:39:59,450 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 22:42:20,839 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 22:42:20,848 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 22:42:20,850 - INFO - Starting Manual FIM Monitor...
+2025-12-03 22:42:20,859 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 22:42:20,863 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 22:42:20,864 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 22:42:20,866 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 22:49:07,535 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 22:49:07,540 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 22:49:07,540 - INFO - Starting Manual FIM Monitor...
+2025-12-03 22:49:07,541 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 22:49:07,542 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 22:49:07,543 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 22:49:07,547 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 22:50:39,073 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 22:50:39,075 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 22:50:39,076 - INFO - Starting Manual FIM Monitor...
+2025-12-03 22:50:39,078 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 22:50:39,088 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 22:50:39,091 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 22:50:39,093 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 22:55:27,780 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 22:55:27,781 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 22:55:27,782 - INFO - Starting Manual FIM Monitor...
+2025-12-03 22:55:27,783 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 22:55:27,783 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 22:55:27,784 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 22:55:27,785 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 22:57:10,589 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 22:57:10,591 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 22:57:10,594 - INFO - Starting Manual FIM Monitor...
+2025-12-03 22:57:10,600 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 22:57:10,601 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 22:57:10,607 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 22:57:10,609 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 23:00:12,174 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 23:00:12,175 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 23:00:12,176 - INFO - Starting Manual FIM Monitor...
+2025-12-03 23:00:12,176 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 23:00:12,176 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 23:00:12,177 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 23:00:12,180 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 23:03:20,354 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 23:03:20,358 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 23:03:20,359 - INFO - Starting Manual FIM Monitor...
+2025-12-03 23:03:20,362 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 23:03:20,364 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 23:03:20,374 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 23:03:20,378 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 23:03:38,477 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 1.txt | Process: Unknown Process
+2025-12-03 23:11:01,027 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 23:11:01,029 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 23:11:01,030 - INFO - Starting Manual FIM Monitor...
+2025-12-03 23:11:01,031 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 23:11:01,032 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 23:11:01,033 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 23:11:01,035 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 23:12:45,934 - INFO - Starting Manual FIM Monitor...
+2025-12-03 23:12:45,937 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 23:12:45,940 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 23:12:45,944 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 23:12:45,947 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 23:14:10,028 - INFO - Stopping FIM Monitor...
+2025-12-03 23:14:10,044 - INFO - Cleaning up canaries...
+2025-12-03 23:14:10,047 - INFO - Removed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 23:14:10,049 - INFO - Removed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak
+2025-12-03 23:14:10,051 - INFO - Removed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml
+2025-12-03 23:14:10,052 - INFO - Removed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat
+2025-12-03 23:14:10,069 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml | Process: Unknown Process
+2025-12-03 23:14:10,071 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak | Process: Unknown Process
+2025-12-03 23:14:10,072 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt | Process: Unknown Process
+2025-12-03 23:14:10,072 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat | Process: Unknown Process
+2025-12-03 23:16:21,499 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 23:16:21,499 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 23:16:21,503 - INFO - Starting Manual FIM Monitor...
+2025-12-03 23:16:21,509 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 23:16:21,511 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak
+2025-12-03 23:16:21,513 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml
+2025-12-03 23:16:21,515 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat
+2025-12-03 23:18:28,099 - INFO - Stopping FIM Monitor...
+2025-12-03 23:18:28,107 - INFO - Cleaning up canaries...
+2025-12-03 23:20:21,563 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 23:20:21,564 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 23:20:21,565 - INFO - Starting Manual FIM Monitor...
+2025-12-03 23:20:21,570 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 23:20:21,581 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 23:20:21,583 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 23:20:21,585 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 23:24:28,393 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 23:24:28,393 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 23:24:28,400 - INFO - Starting Manual FIM Monitor...
+2025-12-03 23:24:28,402 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 23:24:28,404 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 23:24:28,405 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 23:24:28,407 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 23:24:32,430 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:24:37,469 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:24:42,499 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:24:47,533 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:28:22,020 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 23:28:22,024 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 23:28:22,028 - INFO - Starting Manual FIM Monitor...
+2025-12-03 23:28:22,038 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 23:28:22,040 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 23:28:22,043 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 23:28:22,047 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 23:28:26,069 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:28:31,108 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:28:36,141 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:28:41,165 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:28:46,189 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:32:10,182 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 23:32:10,186 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 23:32:10,187 - INFO - Starting Manual FIM Monitor...
+2025-12-03 23:32:10,188 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 23:32:10,190 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 23:32:10,194 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 23:32:10,197 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 23:32:14,218 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:32:19,267 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:32:24,290 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:32:29,347 - INFO - Event: CREATED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 1.txt | Process: Unknown Process
+2025-12-03 23:32:29,359 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 2.txt | Process: Unknown Process
+2025-12-03 23:32:29,367 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:32:34,414 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:32:39,453 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:32:44,489 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:32:49,509 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:32:54,534 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:32:59,565 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:33:04,592 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:33:09,628 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:33:14,653 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:33:19,719 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:33:24,802 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:33:29,829 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:33:34,878 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:33:40,053 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:33:45,084 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:33:50,401 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:33:55,572 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:34:00,611 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:34:05,644 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:37:19,932 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-03 23:37:19,933 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-03 23:37:19,937 - INFO - Starting Manual FIM Monitor...
+2025-12-03 23:37:19,939 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-03 23:37:19,940 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-03 23:37:19,940 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-03 23:37:19,940 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-03 23:37:24,111 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:37:29,207 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:37:34,232 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:37:38,270 - INFO - Event: CREATED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 2.txt | Process: Unknown Process
+2025-12-03 23:37:38,284 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 1.txt | Process: Unknown Process
+2025-12-03 23:37:39,290 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:37:44,349 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:37:49,424 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:37:54,469 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:37:59,493 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:38:04,517 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:38:09,541 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:38:14,564 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:38:19,589 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:38:20,610 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 23:38:20,618 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-03 23:38:22,648 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 23:38:22,654 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-03 23:38:24,841 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:38:30,152 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:38:35,204 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:38:40,564 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:38:45,660 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:38:50,912 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:38:56,236 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:39:01,323 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:39:06,365 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:39:11,393 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 23:39:11,394 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-03 23:39:11,397 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:39:12,406 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-03 23:39:12,415 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-03 23:39:16,454 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:39:21,476 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:39:26,505 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:39:31,537 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:39:36,573 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:39:41,592 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:39:46,614 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-03 23:39:51,639 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 06:55:21,064 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-04 06:55:21,065 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-04 06:55:21,068 - INFO - Starting Manual FIM Monitor...
+2025-12-04 06:55:21,070 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-04 06:55:21,072 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-04 06:55:21,077 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-04 06:55:21,078 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-04 06:55:25,111 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 06:55:30,546 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 06:55:35,585 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 06:55:40,614 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 06:55:45,645 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 06:55:50,664 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 06:55:55,695 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:51:46,080 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-04 11:51:46,083 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-04 11:51:46,084 - INFO - Starting Manual FIM Monitor...
+2025-12-04 11:51:46,086 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-04 11:51:46,091 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-04 11:51:46,092 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-04 11:51:46,095 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-04 11:51:50,139 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:51:55,172 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:00,198 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:05,243 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:10,275 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:15,304 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:20,334 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:25,363 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:30,397 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:35,427 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:40,466 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:45,496 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:50,557 - INFO - Event: CREATED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 1.txt | Process: Unknown Process
+2025-12-04 11:52:50,587 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 2.txt | Process: Unknown Process
+2025-12-04 11:52:50,589 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:55,632 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:52:57,646 - INFO - Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 1.txt | Process: Unknown Process
+2025-12-04 11:53:00,674 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:53:05,711 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:53:10,744 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:53:15,767 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:53:20,797 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:53:25,869 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:53:30,914 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:53:35,947 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:53:40,979 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-04 11:53:40,981 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-04 11:53:40,984 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:53:41,993 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-04 11:53:41,993 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-04 11:53:46,024 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:53:51,061 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:53:56,115 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:54:01,152 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:54:06,188 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:54:11,223 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:54:16,248 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:54:21,280 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:54:26,312 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 11:54:31,344 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:23:48,273 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-04 12:23:48,274 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-04 12:23:48,275 - INFO - Starting Manual FIM Monitor...
+2025-12-04 12:23:48,278 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-04 12:23:48,280 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-04 12:23:48,285 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-04 12:23:48,286 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-04 12:23:52,313 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:23:57,361 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:02,386 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:07,425 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:12,533 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:17,601 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:22,630 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:27,660 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:32,686 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:37,716 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:42,750 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:47,774 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:52,811 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:24:57,844 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:02,951 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:08,005 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:13,041 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:18,072 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:23,096 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:28,129 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:33,162 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:38,190 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:43,220 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:48,257 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:53,310 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:25:58,362 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:03,389 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:08,419 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:13,446 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:18,471 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:23,491 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:28,517 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:33,541 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:38,575 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:43,602 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:48,633 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:53,661 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:26:58,685 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:03,709 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:08,739 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:13,764 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:18,789 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:23,818 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:28,838 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:33,878 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:38,911 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:41,932 - INFO - Event: CREATED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 2.txt | Process: Unknown Process
+2025-12-04 12:27:41,941 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 1.txt | Process: Unknown Process
+2025-12-04 12:27:43,960 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:48,998 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:54,029 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:27:59,054 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:28:04,086 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:28:09,120 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:28:14,166 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:28:18,193 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-04 12:28:18,195 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-04 12:28:19,208 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:28:24,242 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:28:29,289 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:28:34,335 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:28:39,382 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:28:44,410 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 12:28:49,441 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:37:34,059 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-04 14:37:34,059 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-04 14:37:34,059 - INFO - Starting Manual FIM Monitor...
+2025-12-04 14:37:34,061 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-04 14:37:34,062 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-04 14:37:34,062 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-04 14:37:34,065 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-04 14:37:38,081 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:37:43,096 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:37:48,112 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:37:53,126 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:37:57,140 - INFO - Event: CREATED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 1.txt | Process: Unknown Process
+2025-12-04 14:37:57,143 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 2.txt | Process: Unknown Process
+2025-12-04 14:37:58,146 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:03,161 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:08,175 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:13,190 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:18,206 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:23,218 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:28,232 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-04 14:38:28,232 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-04 14:38:28,234 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:29,237 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-04 14:38:29,238 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-04 14:38:33,249 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:38,262 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:43,280 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:48,295 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:53,308 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:38:58,321 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:39:03,333 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:39:08,348 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:39:13,363 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 14:39:18,378 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:49:34,241 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-04 15:49:34,242 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-04 15:49:34,243 - INFO - Starting Manual FIM Monitor...
+2025-12-04 15:49:34,248 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-04 15:49:34,251 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-04 15:49:34,253 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-04 15:49:34,253 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-04 15:49:38,271 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:49:43,288 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:49:48,303 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:49:53,316 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:49:58,329 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:03,343 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:08,509 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:13,522 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:18,538 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:23,551 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:28,564 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:33,576 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:38,588 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:43,600 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:48,613 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:53,625 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:50:57,636 - INFO - Event: CREATED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\New Text Document.txt | Process: Unknown Process
+2025-12-04 15:50:58,639 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:01,649 - INFO - Event: CREATED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 2.txt | Process: Unknown Process
+2025-12-04 15:51:01,651 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\New Text Document.txt | Process: Unknown Process
+2025-12-04 15:51:03,658 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:08,690 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:10,695 - INFO - Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 2.txt | Process: Unknown Process
+2025-12-04 15:51:13,706 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:18,722 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:23,738 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:28,751 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:33,765 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:38,781 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:43,799 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:48,825 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:53,840 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:51:56,851 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-04 15:51:56,851 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-04 15:51:58,861 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-04 15:51:58,861 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-04 15:51:58,861 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:52:03,881 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:52:08,904 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:52:13,927 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:52:18,982 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:52:24,231 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:52:27,374 - CRITICAL - !!! CANARY TRIGGERED !!! Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-04 15:52:27,375 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-04 15:52:29,381 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:52:34,551 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:52:39,632 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:52:44,647 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:52:49,663 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:52:54,679 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:52:59,695 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:04,709 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:09,725 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:14,742 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:19,757 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:24,771 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:29,785 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:34,801 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:39,816 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:44,832 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:49,849 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:54,862 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:53:59,876 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:54:04,894 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:54:09,908 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 8
+2025-12-04 15:55:09,857 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-04 15:55:09,858 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-04 15:55:09,858 - INFO - Starting Manual FIM Monitor...
+2025-12-04 15:55:09,859 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-04 15:55:09,861 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-04 15:55:09,863 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-04 15:55:09,864 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-04 15:55:13,881 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:55:18,898 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:55:23,916 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:55:28,932 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:55:33,947 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:55:38,963 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:55:43,981 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:55:48,999 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:55:54,012 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:55:59,027 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:04,043 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:09,056 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:14,073 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:19,086 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:24,100 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:29,113 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:34,127 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:39,142 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:44,155 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:49,170 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:54,184 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:56:59,197 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:04,210 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:09,223 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:14,238 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:19,252 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:24,265 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:29,282 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:34,296 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:39,314 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:44,329 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:49,344 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:54,359 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:57:59,378 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:04,398 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:09,413 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:14,429 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:19,444 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:24,457 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:29,473 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:34,494 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:39,507 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:44,522 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:49,538 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:54,555 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:58:59,572 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:04,588 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:09,602 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:14,616 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:19,628 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:24,643 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:29,658 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:34,672 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:39,733 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:44,751 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:49,806 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:54,875 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 15:59:59,888 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:00:04,902 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:00:09,914 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:00:14,928 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:00:19,941 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:00:24,954 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:00:29,965 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:00:34,979 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:00:39,993 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:00:45,008 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:00:50,021 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:00:55,034 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:00,048 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:05,063 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:10,075 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:15,090 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:20,104 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:25,117 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:30,131 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:35,145 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:40,158 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:45,170 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:50,187 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:01:55,201 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:00,217 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:05,231 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:10,248 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:15,267 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:19,280 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-04 16:02:19,280 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-04 16:02:20,284 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:25,489 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:31,096 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:36,431 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:41,619 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:46,890 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:52,171 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:02:57,433 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:03:02,736 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:03:07,981 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:03:13,320 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:03:18,586 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:03:23,800 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:03:28,989 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:03:34,243 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:03:39,456 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:03:44,664 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:03:49,855 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:03:55,048 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:00,317 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:05,522 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:10,755 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:16,005 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:21,227 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:26,468 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:31,691 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:36,952 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:42,151 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:47,355 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:52,594 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:04:57,805 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:05:03,029 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:05:08,227 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:05:13,407 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:05:18,613 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:05:23,927 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:05:29,119 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:05:34,394 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:05:39,582 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:05:44,819 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:05:50,035 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:05:55,250 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:00,496 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:05,719 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:10,999 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:16,180 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:21,366 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:26,732 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:31,916 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:37,166 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:42,452 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:47,754 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:52,973 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:06:58,226 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:07:03,405 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:07:08,586 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:07:13,851 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:07:19,056 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:07:24,592 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-04 16:07:25,642 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-04 16:07:25,645 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-04 16:07:29,844 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-12 12:11:09,582 - INFO - Initializing Behavioral File Integrity Monitor...
+2025-12-12 12:11:09,585 - INFO - Starting Dashboard Server on http://localhost:8000
+2025-12-12 12:11:09,590 - INFO - Starting Manual FIM Monitor...
+2025-12-12 12:11:09,608 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2025-12-12 12:11:09,615 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2025-12-12 12:11:09,621 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2025-12-12 12:11:09,630 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2025-12-12 12:11:13,668 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-12 12:11:18,699 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-12 12:11:23,773 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-12 12:11:28,798 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 9
+2025-12-12 12:11:29,803 - INFO - Event: CREATED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\New Text Document.txt | Process: Unknown Process
+2025-12-12 12:11:33,825 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:11:34,834 - INFO - Event: CREATED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 3.txt | Process: Unknown Process
+2025-12-12 12:11:34,839 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\New Text Document.txt | Process: Unknown Process
+2025-12-12 12:11:38,879 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:11:43,904 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:11:49,012 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:11:50,021 - INFO - Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 3.txt | Process: Unknown Process
+2025-12-12 12:11:52,037 - INFO - Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\file 3.txt | Process: Unknown Process
+2025-12-12 12:11:54,049 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:11:59,077 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:04,100 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:09,124 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:14,173 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:19,334 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:24,373 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:29,421 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:34,451 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:38,471 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-12 12:12:38,476 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-12 12:12:39,506 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:40,517 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-12 12:12:40,519 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-12 12:12:44,539 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:45,548 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt
+2025-12-12 12:12:45,550 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2025-12-12 12:12:49,580 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:54,618 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:12:59,673 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:13:04,722 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:13:09,795 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:13:14,827 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:13:19,856 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:13:24,885 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:13:29,992 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:13:35,037 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:13:40,056 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:13:45,085 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:13:50,106 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2025-12-12 12:13:55,130 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:17:44,925 - INFO - Initializing Behavioral File Integrity Monitor...
+2026-02-22 21:17:44,926 - INFO - Starting Dashboard Server on http://localhost:8000
+2026-02-22 21:17:44,926 - INFO - Starting Manual FIM Monitor...
+2026-02-22 21:17:44,928 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2026-02-22 21:17:44,930 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2026-02-22 21:17:44,930 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2026-02-22 21:17:44,936 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2026-02-22 21:17:48,963 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:17:53,982 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:17:59,005 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:04,024 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:09,042 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:14,064 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:19,082 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:24,101 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:29,123 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:34,141 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:39,159 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:44,174 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:49,192 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:54,214 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:18:59,232 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:04,248 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:09,264 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:14,280 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:19,296 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:24,316 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:29,332 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:34,347 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:39,363 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:44,379 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:49,395 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:54,411 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:19:59,426 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:04,442 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:09,457 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:14,473 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:19,488 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:24,506 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:29,523 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:34,535 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:39,552 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:44,568 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:49,584 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:54,598 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:20:59,614 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:04,630 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:09,645 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:14,660 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:19,676 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:24,690 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:29,705 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:34,720 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:39,734 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:44,750 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:49,766 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:54,781 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:21:59,798 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:22:04,814 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:22:09,830 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:22:14,847 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:22:19,861 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:22:24,877 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:22:29,925 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:22:34,954 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:22:39,973 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:22:44,988 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:22:50,006 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:22:55,025 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:23:00,046 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:23:05,061 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:23:10,078 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:23:15,099 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:23:20,122 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:23:37,948 - INFO - Initializing Behavioral File Integrity Monitor...
+2026-02-22 21:23:37,949 - INFO - Starting Dashboard Server on http://localhost:8000
+2026-02-22 21:23:37,949 - INFO - Starting Manual FIM Monitor...
+2026-02-22 21:23:37,951 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2026-02-22 21:23:37,951 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2026-02-22 21:23:37,953 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2026-02-22 21:23:37,958 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2026-02-22 21:23:41,979 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:23:47,021 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:23:52,047 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:23:57,077 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:24:02,103 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:24:07,131 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:24:12,155 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:24:17,188 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:24:22,211 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:24:27,234 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-22 21:24:32,259 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:20:44,225 - INFO - Initializing Behavioral File Integrity Monitor...
+2026-02-24 11:20:44,225 - INFO - Starting Dashboard Server on http://localhost:8000
+2026-02-24 11:20:44,225 - INFO - Starting Manual FIM Monitor...
+2026-02-24 11:20:44,225 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2026-02-24 11:20:44,225 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2026-02-24 11:20:44,225 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2026-02-24 11:20:44,225 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2026-02-24 11:20:48,238 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:20:53,264 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:20:58,279 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:21:03,296 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:21:08,308 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:21:13,321 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:21:18,334 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:21:23,348 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:21:28,363 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:22:09,122 - INFO - Initializing Behavioral File Integrity Monitor...
+2026-02-24 11:22:09,124 - INFO - Starting Dashboard Server on http://localhost:8000
+2026-02-24 11:22:09,124 - INFO - Starting Manual FIM Monitor...
+2026-02-24 11:22:09,126 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2026-02-24 11:22:09,126 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2026-02-24 11:22:09,127 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2026-02-24 11:22:09,127 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2026-02-24 11:22:13,145 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:22:18,167 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 10
+2026-02-24 11:45:14,707 - INFO - Initializing Behavioral File Integrity Monitor...
+2026-02-24 11:45:14,708 - INFO - Starting Dashboard Server on http://localhost:8000
+2026-02-24 11:45:14,709 - INFO - Starting Manual FIM Monitor...
+2026-02-24 11:45:14,711 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\passwords.txt already exists.
+2026-02-24 11:45:14,711 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\config.bak already exists.
+2026-02-24 11:45:14,711 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2026-02-24 11:45:14,713 - WARNING - Skipping canary creation: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\wallet.dat already exists.
+2026-02-24 11:45:14,718 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\salaryexpend.xls
+2026-02-24 11:45:14,721 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\employee_records.xlsx
+2026-02-24 11:45:14,726 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\financial_report_2024.pdf
+2026-02-24 11:45:14,728 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\tax_returns.docx
+2026-02-24 11:45:14,729 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\customer_data.csv
+2026-02-24 11:45:14,731 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\private_keys.pem
+2026-02-24 11:45:14,735 - INFO - Deployed canary: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\backup_db.sql
+2026-02-24 11:45:18,754 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:45:23,797 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:45:28,820 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:45:33,844 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:45:35,852 - INFO - Event: CREATED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\New Text Document.txt | Process: Unknown Process
+2026-02-24 11:45:38,861 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:45:40,867 - INFO - Event: CREATED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\Hello new.txt | Process: Unknown Process
+2026-02-24 11:45:40,870 - INFO - Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\New Text Document.txt | Process: Unknown Process
+2026-02-24 11:45:43,879 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:45:48,895 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:45:53,913 - INFO - Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\Hello new.txt | Process: Unknown Process
+2026-02-24 11:45:53,916 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:45:58,932 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:03,953 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:08,975 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:14,217 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:19,251 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:24,288 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:29,333 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:34,351 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:39,379 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:44,393 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:49,405 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:54,423 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:46:59,437 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:04,453 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:09,465 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:14,478 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:19,504 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:24,514 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:29,528 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:32,542 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\salaryexpend.xls
+2026-02-24 11:47:32,549 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2026-02-24 11:47:34,558 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:39,655 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:44,704 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:49,735 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:54,805 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:47:59,833 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:48:04,878 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:48:09,907 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:48:11,917 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\salaryexpend.xls
+2026-02-24 11:48:11,923 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2026-02-24 11:48:12,933 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\salaryexpend.xls
+2026-02-24 11:48:12,936 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2026-02-24 11:48:15,008 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:48:20,027 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:48:25,059 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:48:30,106 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:48:35,123 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:48:40,169 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:48:45,201 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:48:50,212 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:48:55,364 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:00,578 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:03,592 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\salaryexpend.xls
+2026-02-24 11:49:03,598 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2026-02-24 11:49:05,613 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:10,637 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:15,674 - CRITICAL - !!! CANARY TRIGGERED !!! Event: MODIFIED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\salaryexpend.xls
+2026-02-24 11:49:15,678 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2026-02-24 11:49:15,681 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:20,700 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:25,724 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:30,761 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:35,786 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:40,820 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:45,851 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:50,872 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:49:55,883 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:00,896 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:05,906 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:10,920 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:16,071 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:21,190 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:26,221 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:31,242 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:36,279 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:41,361 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:46,379 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:51,439 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:50:56,466 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:01,707 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:07,240 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:12,372 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:18,032 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:23,124 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:28,160 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:33,180 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:38,196 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:43,226 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:48,317 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:53,361 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-24 11:51:54,420 - CRITICAL - !!! CANARY TRIGGERED !!! Event: DELETED | File: C:\Users\Abhishek\.gemini\antigravity\scratch\behavioral_fim\test_monitored\salaryexpend.xls
+2026-02-24 11:51:54,424 - CRITICAL - POTENTIAL RANSOMWARE OR INTRUSION DETECTED!
+2026-02-24 11:51:58,458 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:03,494 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:08,530 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:13,798 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:18,978 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:24,148 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:29,192 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:34,290 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:39,328 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:44,373 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:49,415 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:54,452 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:52:59,485 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:53:04,526 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:53:09,585 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:53:14,663 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:53:19,691 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:53:24,836 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:53:29,862 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:53:34,886 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:53:39,947 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:53:45,001 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:53:50,034 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:53:55,064 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:00,157 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:05,303 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:10,339 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:15,404 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:20,462 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:25,490 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:30,543 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:35,573 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:40,636 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:45,665 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:50,785 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:54:55,811 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:55:00,933 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:55:06,040 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:55:11,105 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:55:16,162 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:55:21,215 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:55:26,313 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:55:31,370 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:55:36,396 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:55:41,450 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-24 11:55:46,535 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 17
+2026-02-27 10:01:28,508 - INFO - Deployed canary: .\passwords.txt
+2026-02-27 10:01:28,511 - INFO - Deployed canary: .\config.bak
+2026-02-27 10:01:28,512 - INFO - Deployed canary: .\admin_creds.xml
+2026-02-27 10:01:28,514 - INFO - Deployed canary: .\wallet.dat
+2026-02-27 10:01:28,516 - INFO - Deployed canary: .\salaryexpend.xls
+2026-02-27 10:01:28,517 - INFO - Deployed canary: .\employee_records.xlsx
+2026-02-27 10:01:28,519 - INFO - Deployed canary: .\financial_report_2024.pdf
+2026-02-27 10:01:28,522 - INFO - Deployed canary: .\tax_returns.docx
+2026-02-27 10:01:28,526 - INFO - Deployed canary: .\customer_data.csv
+2026-02-27 10:01:28,528 - INFO - Deployed canary: .\private_keys.pem
+2026-02-27 10:01:28,530 - INFO - Deployed canary: .\backup_db.sql
+2026-02-27 14:15:25,996 - INFO - Initializing Behavioral File Integrity Monitor...
+2026-02-27 14:15:25,998 - INFO - Starting Dashboard Server on http://localhost:8000
+2026-02-27 14:15:25,998 - INFO - Starting Manual FIM Monitor...
+2026-02-27 14:15:25,999 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\passwords.txt already exists.
+2026-02-27 14:15:25,999 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\config.bak already exists.
+2026-02-27 14:15:25,999 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2026-02-27 14:15:25,999 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\wallet.dat already exists.
+2026-02-27 14:15:26,003 - INFO - Deployed canary: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\salaryexpend.xls
+2026-02-27 14:15:26,003 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\employee_records.xlsx already exists.
+2026-02-27 14:15:26,003 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\financial_report_2024.pdf already exists.
+2026-02-27 14:15:26,003 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\tax_returns.docx already exists.
+2026-02-27 14:15:26,003 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\customer_data.csv already exists.
+2026-02-27 14:15:26,003 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\private_keys.pem already exists.
+2026-02-27 14:15:26,003 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\backup_db.sql already exists.
+2026-02-27 14:15:30,010 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:15:35,016 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:15:40,023 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:15:45,029 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:15:50,040 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:15:55,049 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:00,057 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:05,067 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:10,079 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:15,089 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:20,101 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:25,112 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:30,122 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:35,135 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:40,146 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:45,157 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:50,168 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:16:55,176 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:00,188 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:05,199 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:10,208 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:15,218 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:20,227 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:25,236 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:30,244 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:35,253 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:40,264 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:45,273 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:50,281 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:17:55,289 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:00,298 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:05,308 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:10,316 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:15,324 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:20,333 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:25,341 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:30,347 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:35,354 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:40,361 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:45,367 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:50,374 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:18:55,380 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:00,388 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:05,395 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:10,405 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:15,412 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:20,419 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:25,428 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:30,434 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:35,443 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:40,450 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:45,456 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:50,463 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:19:55,471 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:00,481 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:05,487 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:10,494 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:15,500 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:20,507 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:25,514 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:30,521 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:35,527 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:40,534 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:45,540 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:50,549 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:20:55,555 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:00,564 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:05,570 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:10,576 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:15,584 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:20,591 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:25,598 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:30,606 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:35,613 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:40,620 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:45,627 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:50,633 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:21:55,641 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:00,648 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:05,654 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:10,660 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:15,668 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:20,676 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:25,683 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:30,689 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:35,696 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:40,705 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:45,709 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:50,716 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:22:55,722 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:00,730 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:05,736 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:10,743 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:15,750 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:20,757 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:25,763 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:30,772 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:35,779 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:40,787 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:45,795 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:50,803 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:23:55,812 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:00,821 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:05,827 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:10,835 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:15,843 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:20,849 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:25,857 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:30,865 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:35,874 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:36,592 - INFO - Initializing Behavioral File Integrity Monitor...
+2026-02-27 14:24:36,592 - INFO - Starting Dashboard Server on http://localhost:8000
+2026-02-27 14:24:36,592 - INFO - Starting Manual FIM Monitor...
+2026-02-27 14:24:36,593 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\passwords.txt already exists.
+2026-02-27 14:24:36,594 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\config.bak already exists.
+2026-02-27 14:24:36,594 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2026-02-27 14:24:36,594 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\wallet.dat already exists.
+2026-02-27 14:24:36,596 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\salaryexpend.xls already exists.
+2026-02-27 14:24:36,597 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\employee_records.xlsx already exists.
+2026-02-27 14:24:36,597 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\financial_report_2024.pdf already exists.
+2026-02-27 14:24:36,598 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\tax_returns.docx already exists.
+2026-02-27 14:24:36,598 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\customer_data.csv already exists.
+2026-02-27 14:24:36,599 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\private_keys.pem already exists.
+2026-02-27 14:24:36,599 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\backup_db.sql already exists.
+2026-02-27 14:24:40,883 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:45,891 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:50,900 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:24:55,908 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:00,916 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:05,924 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:10,933 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:15,941 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:20,948 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:25,954 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:30,962 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:35,968 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:40,975 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:45,983 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:50,991 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:25:55,998 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:01,005 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:06,011 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:11,019 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:16,024 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:21,032 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:26,038 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:31,045 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:36,053 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:41,059 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:46,065 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:51,072 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:26:56,079 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:01,087 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:06,096 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:11,104 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:16,111 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:21,118 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:26,123 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:31,130 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:36,137 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:41,143 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:46,151 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:51,157 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:27:56,165 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:01,173 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:06,180 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:11,187 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:16,195 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:21,202 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:26,210 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:31,215 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:36,222 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:41,230 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:46,236 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:51,244 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:28:56,250 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:01,256 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:06,270 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:11,276 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:16,284 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:21,291 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:26,298 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:31,311 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:36,317 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:41,324 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:46,332 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:51,338 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:29:56,344 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:01,351 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:06,357 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:11,364 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:16,371 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:21,378 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:26,387 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:29,607 - INFO - Initializing Behavioral File Integrity Monitor...
+2026-02-27 14:30:29,607 - INFO - Starting Dashboard Server on http://localhost:8000
+2026-02-27 14:30:29,608 - INFO - Starting Manual FIM Monitor...
+2026-02-27 14:30:29,609 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\passwords.txt already exists.
+2026-02-27 14:30:29,609 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\config.bak already exists.
+2026-02-27 14:30:29,610 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2026-02-27 14:30:29,610 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\wallet.dat already exists.
+2026-02-27 14:30:29,613 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\salaryexpend.xls already exists.
+2026-02-27 14:30:29,613 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\employee_records.xlsx already exists.
+2026-02-27 14:30:29,614 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\financial_report_2024.pdf already exists.
+2026-02-27 14:30:29,614 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\tax_returns.docx already exists.
+2026-02-27 14:30:29,614 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\customer_data.csv already exists.
+2026-02-27 14:30:29,615 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\private_keys.pem already exists.
+2026-02-27 14:30:29,615 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\backup_db.sql already exists.
+2026-02-27 14:30:31,394 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:36,401 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:41,412 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:46,419 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:51,426 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:30:56,435 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:01,442 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:06,449 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:11,456 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:16,464 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:21,472 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:26,479 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:31,485 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:36,492 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:41,499 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:46,506 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:51,513 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:31:56,520 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:01,527 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:06,533 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:11,540 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:16,548 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:21,555 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:26,562 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:31,568 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:36,575 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:41,582 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:46,589 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:51,597 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:32:56,605 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:01,612 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:06,619 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:11,626 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:16,635 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:21,644 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:26,651 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:31,658 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:36,664 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:41,670 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:46,680 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:51,688 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:33:56,695 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:01,701 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:06,708 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:11,716 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:16,724 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:21,730 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:26,739 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:31,746 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:36,754 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:41,762 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:46,770 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:51,778 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:34:56,787 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:01,795 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:06,803 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:11,809 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:16,815 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:21,823 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:26,830 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:31,835 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:36,841 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:41,848 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:46,855 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:51,862 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:35:56,868 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:01,876 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:06,884 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:11,891 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:16,898 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:21,904 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:26,913 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:31,920 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:36,928 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:41,936 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:46,945 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:51,953 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:36:56,960 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:01,967 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:06,974 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:11,981 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:16,988 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:21,998 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:27,007 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:32,014 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:37,022 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:42,029 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:47,036 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:52,043 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:37:57,049 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:02,098 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:07,106 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:12,114 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:17,123 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:22,130 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:27,138 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:32,153 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:37,160 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:42,167 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:47,180 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:52,187 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:38:57,194 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:02,202 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:07,209 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:12,217 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:17,224 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:22,231 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:27,237 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:32,246 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:37,253 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:42,261 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:47,268 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:52,276 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:39:57,283 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:02,290 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:07,298 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:12,305 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:17,313 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:22,321 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:27,330 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:32,337 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:37,344 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:42,353 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:47,361 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:52,367 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:40:57,375 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:02,382 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:07,389 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:12,395 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:17,402 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:22,411 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:27,417 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:32,424 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:37,431 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:42,437 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:47,443 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:52,449 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:41:57,456 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:02,463 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:07,469 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:12,477 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:17,484 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:22,492 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:27,499 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:32,507 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:37,514 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:42,522 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:47,527 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:52,534 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:42:57,542 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:02,551 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:07,558 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:12,565 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:17,572 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:22,579 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:27,586 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:32,594 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:37,601 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:42,607 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:47,614 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:52,624 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:43:57,632 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:02,640 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:07,647 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:12,654 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:17,661 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:22,668 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:27,676 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:32,685 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:37,694 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:42,702 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:47,708 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:52,716 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:44:57,722 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:02,728 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:07,733 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:12,740 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:17,748 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:22,756 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:27,763 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:32,771 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:37,779 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:42,787 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:47,792 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:52,799 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:45:57,810 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:02,816 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:07,824 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:12,832 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:17,837 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:22,843 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:27,849 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:32,860 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:37,866 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:42,875 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:47,882 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:52,889 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:46:57,897 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:02,905 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:07,912 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:12,919 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:17,925 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:22,931 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:27,936 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:32,942 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:37,947 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:42,955 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:47,962 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:52,968 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:47:57,974 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:02,986 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:07,996 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:13,006 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:18,012 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:23,019 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:28,027 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:33,034 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:38,042 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:43,050 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:48,056 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:53,065 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:48:58,075 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:03,084 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:08,091 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:13,098 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:18,106 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:23,114 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:28,121 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:33,130 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:38,140 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:43,148 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:48,156 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:53,163 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:49:58,174 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:03,182 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:08,189 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:13,201 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:18,211 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:23,219 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:28,228 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:33,236 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:38,244 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:43,252 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:48,261 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:53,274 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:50:58,280 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:03,288 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:08,296 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:13,304 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:18,311 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:23,319 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:28,328 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:33,335 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:38,342 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:43,350 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:48,360 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:53,370 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:51:58,377 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:03,385 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:08,394 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:13,402 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:18,411 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:23,418 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:28,426 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:33,434 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:38,442 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:43,449 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:48,459 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:53,469 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:52:58,477 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:03,487 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:08,496 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:13,504 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:18,512 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:23,521 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:28,528 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:33,539 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:38,547 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:43,557 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:48,569 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:53,577 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:53:58,585 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:03,596 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:08,604 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:13,612 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:18,624 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:23,633 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:28,642 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:33,648 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:38,655 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:43,665 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:48,673 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:53,680 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:54:58,689 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:55:03,697 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:55:08,704 - INFO - HEARTBEAT: Monitor Active | Tracked Files: 18
+2026-02-27 14:55:08,858 - INFO - Initializing Behavioral File Integrity Monitor...
+2026-02-27 14:55:08,858 - INFO - Starting Dashboard Server on http://localhost:8000
+2026-02-27 14:55:08,858 - INFO - Starting Manual FIM Monitor...
+2026-02-27 14:55:08,859 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\passwords.txt already exists.
+2026-02-27 14:55:08,860 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\config.bak already exists.
+2026-02-27 14:55:08,860 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\admin_creds.xml already exists.
+2026-02-27 14:55:08,861 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\wallet.dat already exists.
+2026-02-27 14:55:08,861 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\salaryexpend.xls already exists.
+2026-02-27 14:55:08,861 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\employee_records.xlsx already exists.
+2026-02-27 14:55:08,861 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\financial_report_2024.pdf already exists.
+2026-02-27 14:55:08,861 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\tax_returns.docx already exists.
+2026-02-27 14:55:08,861 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\customer_data.csv already exists.
+2026-02-27 14:55:08,861 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\private_keys.pem already exists.
+2026-02-27 14:55:08,862 - WARNING - Skipping canary creation: C:\Users\Admin\Desktop\behavioral_fim\test_monitored\backup_db.sql already exists.

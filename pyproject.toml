@@ -1,0 +1,11 @@
+[project]
+name = "behavioral_fim"
+version = "0.1.0"
+
+[tool.pyre]
+source_directories = ["."]
+search_path = ["."]
+
+[tool.pyre2]
+source_directories = ["."]
+search_path = ["."]

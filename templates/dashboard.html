@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentry Dynamics | Behavioral FIM</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --bg: #0a0e1a;
+            --surface: rgba(255,255,255,0.04);
+            --surface-hover: rgba(255,255,255,0.07);
+            --border: rgba(255,255,255,0.08);
+            --text: #e2e8f0;
+            --text-muted: #64748b;
+            --accent: #6366f1;
+            --accent2: #8b5cf6;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --orange: #f97316;
+            --radius: 18px;
+            --shadow: 0 8px 32px rgba(0,0,0,0.4);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background: var(--bg);
+            background-image:
+                radial-gradient(ellipse 600px 400px at 10% 20%, rgba(99,102,241,0.12) 0%, transparent 70%),
+                radial-gradient(ellipse 500px 400px at 90% 80%, rgba(139,92,246,0.10) 0%, transparent 70%);
+            color: var(--text);
+            font-family: 'Outfit', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ── Header ────────────────────────────────────────────────────────── */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px 32px;
+            border-bottom: 1px solid var(--border);
+            background: rgba(10,14,26,0.8);
+            backdrop-filter: blur(20px);
+            position: sticky; top: 0; z-index: 100;
+        }
+
+        .logo-area { display: flex; align-items: center; gap: 14px; }
+        .logo-icon {
+            width: 42px; height: 42px;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 22px; font-weight: 700; color: white;
+            box-shadow: 0 0 20px rgba(99,102,241,0.4);
+        }
+        h1 {
+            font-size: 1.5em; font-weight: 700;
+            background: linear-gradient(90deg, #e2e8f0, var(--accent));
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header-right { display: flex; align-items: center; gap: 16px; }
+
+        .status-badge {
+            display: flex; align-items: center; gap: 8px;
+            padding: 8px 16px; border-radius: 50px;
+            background: var(--surface); border: 1px solid var(--border);
+            font-size: 0.85em; font-weight: 600;
+        }
+        .status-dot {
+            width: 8px; height: 8px; border-radius: 50%;
+            background: var(--success);
+            box-shadow: 0 0 8px var(--success);
+            animation: blink 2s infinite;
+        }
+        @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+        #clock {
+            font-weight: 600; font-size: 0.9em; color: var(--accent);
+            padding: 8px 16px; background: var(--surface);
+            border: 1px solid var(--border); border-radius: 50px;
+        }
+
+        /* ── Main Grid ─────────────────────────────────────────────────────── */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 300px 1fr 340px;
+            grid-template-rows: auto auto auto;
+            gap: 20px;
+            padding: 24px 32px;
+            flex: 1;
+        }
+
+        /* ── Glass Panel ───────────────────────────────────────────────────── */
+        .panel {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 22px;
+            backdrop-filter: blur(16px);
+            transition: border-color 0.3s;
+        }
+        .panel:hover { border-color: rgba(99,102,241,0.3); }
+
+        .panel-title {
+            font-size: 0.8em; font-weight: 700; letter-spacing: 0.08em;
+            text-transform: uppercase; color: var(--text-muted);
+            display: flex; align-items: center; gap: 8px;
+            margin-bottom: 18px;
+        }
+        .panel-title::before {
+            content: '';
+            width: 6px; height: 6px; border-radius: 2px;
+            background: var(--accent);
+        }
+
+        /* ── Risk Score Gauge ──────────────────────────────────────────────── */
+        #risk-panel {
+            grid-column: 1; grid-row: 1;
+            display: flex; flex-direction: column; align-items: center;
+        }
+        .gauge-wrapper {
+            position: relative; width: 200px; height: 110px; margin: 0 auto 16px;
+        }
+        #gauge-svg { overflow: visible; }
+        #gauge-label {
+            position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
+            text-align: center;
+        }
+        #gauge-score { font-size: 2.4em; font-weight: 700; color: var(--success); line-height: 1; }
+        #gauge-stage {
+            font-size: 0.75em; font-weight: 700; letter-spacing: 0.1em;
+            color: var(--success); text-transform: uppercase; margin-top: 2px;
+        }
+
+        .risk-user-tabs {
+            display: flex; gap: 6px; flex-wrap: wrap; justify-content: center;
+            margin-bottom: 12px;
+        }
+        .risk-user-tab {
+            padding: 4px 12px; border-radius: 20px; cursor: pointer;
+            font-size: 0.78em; font-weight: 600; border: 1px solid var(--border);
+            background: transparent; color: var(--text-muted);
+            transition: all 0.2s;
+        }
+        .risk-user-tab.active, .risk-user-tab:hover {
+            background: var(--accent); color: white; border-color: var(--accent);
+        }
+
+        /* Score factors */
+        .factor-list { width: 100%; }
+        .factor-row {
+            display: flex; align-items: center; gap: 8px;
+            font-size: 0.8em; margin-bottom: 8px;
+        }
+        .factor-label { flex: 1; color: var(--text-muted); }
+        .factor-bar-wrap { flex: 2; background: rgba(255,255,255,0.05); border-radius: 4px; height: 6px; }
+        .factor-bar { height: 100%; border-radius: 4px; transition: width 0.5s; }
+        .factor-delta { font-weight: 700; font-size: 0.9em; min-width: 32px; text-align: right; color: var(--danger); }
+
+        /* ── Alert Escalation Timeline ─────────────────────────────────────── */
+        #escalation-panel {
+            grid-column: 2; grid-row: 1;
+        }
+
+        .stage-pipeline {
+            display: flex; align-items: center; gap: 0; margin-bottom: 20px;
+        }
+        .stage-node {
+            flex: 1; text-align: center; position: relative;
+            padding: 12px 6px;
+            background: var(--surface); border: 1px solid var(--border);
+            cursor: default; transition: all 0.3s;
+        }
+        .stage-node:first-child { border-radius: var(--radius) 0 0 var(--radius); }
+        .stage-node:last-child { border-radius: 0 var(--radius) var(--radius) 0; }
+        .stage-node.active { border-color: transparent; }
+        .stage-node.active.normal  { background: rgba(16,185,129,0.15); border-color: var(--success); }
+        .stage-node.active.elevated { background: rgba(245,158,11,0.15); border-color: var(--warning); }
+        .stage-node.active.high    { background: rgba(249,115,22,0.15); border-color: var(--orange); }
+        .stage-node.active.critical { background: rgba(239,68,68,0.15); border-color: var(--danger); animation: pulse-danger 1s infinite; }
+        @keyframes pulse-danger { 0%,100%{border-color:#ef4444} 50%{border-color:#fca5a5} }
+        .stage-emoji { font-size: 1.4em; }
+        .stage-name { font-size: 0.7em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin-top: 3px; }
+        .stage-range { font-size: 0.65em; color: var(--text-muted); }
+        .stage-arrow { font-size: 1.2em; color: var(--text-muted); padding: 0 2px; }
+
+        /* Alert cards */
+        .alert-card {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 12px; padding: 12px 16px; margin-bottom: 10px;
+            display: flex; align-items: flex-start; gap: 12px;
+            animation: slideIn 0.3s ease-out;
+            border-left-width: 3px;
+        }
+        .alert-card.NORMAL   { border-left-color: var(--success); }
+        .alert-card.ELEVATED { border-left-color: var(--warning); }
+        .alert-card.HIGH     { border-left-color: var(--orange); }
+        .alert-card.CRITICAL { border-left-color: var(--danger); }
+        .alert-icon { font-size: 1.4em; }
+        .alert-body { flex: 1; }
+        .alert-title { font-size: 0.9em; font-weight: 600; margin-bottom: 3px; }
+        .alert-meta { font-size: 0.75em; color: var(--text-muted); }
+        .alert-actions { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+        .soc-btn {
+            padding: 4px 12px; border-radius: 8px; cursor: pointer; border: none;
+            font-size: 0.75em; font-weight: 700; transition: all 0.2s; font-family: inherit;
+        }
+        .soc-btn.dismiss   { background: rgba(100,116,139,0.15); color: #94a3b8; }
+        .soc-btn.dismiss:hover { background: rgba(100,116,139,0.3); }
+        .soc-btn.escalate  { background: rgba(245,158,11,0.15); color: var(--warning); }
+        .soc-btn.escalate:hover { background: rgba(245,158,11,0.3); }
+        .soc-btn.quarantine { background: rgba(239,68,68,0.15); color: var(--danger); }
+        .soc-btn.quarantine:hover { background: rgba(239,68,68,0.3); }
+        .alert-status-badge {
+            padding: 2px 10px; border-radius: 10px; font-size: 0.7em; font-weight: 700;
+            background: rgba(16,185,129,0.15); color: var(--success); white-space: nowrap;
+        }
+        .alert-list { max-height: 280px; overflow-y: auto; }
+
+        @keyframes slideIn { from { opacity:0; transform: translateY(-8px); } to { opacity:1; transform: translateY(0); } }
+
+        /* ── Behavioral Heatmap ────────────────────────────────────────────── */
+        #heatmap-panel {
+            grid-column: 3; grid-row: 1;
+        }
+        #heatmap-chart-wrap { position: relative; height: 180px; }
+
+        /* ── Forensic Timeline ─────────────────────────────────────────────── */
+        #timeline-panel {
+            grid-column: 1 / 3; grid-row: 2;
+        }
+        .timeline-wrap {
+            display: flex; flex-direction: column; gap: 0;
+            max-height: 300px; overflow-y: auto;
+        }
+        .tl-item {
+            display: flex; gap: 16px; padding: 10px 0;
+            border-bottom: 1px solid var(--border);
+            animation: slideIn 0.3s ease;
+            position: relative;
+        }
+        .tl-item:last-child { border-bottom: none; }
+        .tl-time {
+            font-size: 0.72em; color: var(--text-muted); white-space: nowrap;
+            padding-top: 2px; min-width: 60px; font-family: monospace;
+        }
+        .tl-dot-col { display: flex; flex-direction: column; align-items: center; gap: 0; }
+        .tl-dot {
+            width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+            border: 2px solid;
+        }
+        .tl-line { width: 1px; flex: 1; background: var(--border); }
+        .tl-content { flex: 1; }
+        .tl-event { font-size: 0.82em; font-weight: 600; margin-bottom: 2px; }
+        .tl-file { font-size: 0.72em; color: var(--text-muted); font-family: monospace; word-break: break-all; }
+        .tl-risk { font-size: 0.72em; font-weight: 700; }
+        .tl-chain { display: inline-block; padding: 1px 8px; border-radius: 6px;
+            background: rgba(239,68,68,0.15); color: var(--danger); font-size: 0.7em;
+            margin-top: 3px; }
+
+        /* Event type colors */
+        .ev-CREATED  { color: var(--success); border-color: var(--success); }
+        .ev-MODIFIED { color: var(--warning); border-color: var(--warning); }
+        .ev-DELETED  { color: var(--danger);  border-color: var(--danger);  }
+        .ev-CANARY   { color: #a855f7;       border-color: #a855f7;        }
+
+        /* ── Role Clusters ─────────────────────────────────────────────────── */
+        #clusters-panel {
+            grid-column: 3; grid-row: 2;
+        }
+        #cluster-svg { width: 100%; height: 220px; }
+
+        /* ── Bottom Row ────────────────────────────────────────────────────── */
+        #stats-panel {
+            grid-column: 1; grid-row: 3;
+        }
+        .stat-grid {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+        }
+        .stat-card {
+            padding: 12px; background: rgba(255,255,255,0.03);
+            border-radius: 12px; border: 1px solid var(--border); text-align: center;
+        }
+        .stat-value { font-size: 1.6em; font-weight: 700; }
+        .stat-label { font-size: 0.72em; color: var(--text-muted); margin-top: 2px; }
+
+        #graph-panel {
+            grid-column: 2 / 4; grid-row: 3;
+        }
+        #file-graph { width: 100%; height: 220px; border-radius: 12px; }
+
+        /* Performance canvas */
+        #perf-panel {
+            grid-column: 1; grid-row: 3; display: none; /* shown via #stats-panel now */
+        }
+
+        /* ── Scrollbars ────────────────────────────────────────────────────── */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 6px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+
+        /* ── Lockdown Overlay ──────────────────────────────────────────────── */
+        #lockdown-overlay {
+            position: fixed; inset: 0;
+            background: rgba(10,14,26,0.92);
+            backdrop-filter: blur(20px);
+            z-index: 1000; display: none;
+            flex-direction: column; align-items: center; justify-content: center;
+        }
+        #lockdown-overlay.active { display: flex; }
+        .alert-popup {
+            background: rgba(239,68,68,0.1);
+            border: 1px solid rgba(239,68,68,0.4);
+            border-radius: 24px; padding: 50px;
+            text-align: center; max-width: 500px;
+        }
+        .alert-popup-icon { font-size: 4em; margin-bottom: 16px; }
+        .alert-popup h2 { color: var(--danger); font-size: 2em; margin-bottom: 8px; }
+        .alert-popup p { color: var(--text-muted); font-size: 1.1em; }
+        #dismiss-overlay-btn {
+            margin-top: 24px; padding: 12px 30px;
+            background: var(--danger); color: white; border: none;
+            border-radius: 12px; font-size: 1em; font-weight: 700;
+            cursor: pointer; font-family: inherit;
+        }
+
+        /* ── Toast notifications ───────────────────────────────────────────── */
+        #toast-container {
+            position: fixed; top: 80px; right: 24px; z-index: 999;
+            display: flex; flex-direction: column; gap: 10px;
+        }
+        .toast {
+            padding: 12px 18px; border-radius: 12px;
+            background: rgba(30,41,59,0.95); border: 1px solid var(--border);
+            font-size: 0.85em; font-weight: 500; min-width: 260px;
+            animation: slideIn 0.3s ease; box-shadow: var(--shadow);
+        }
+        .toast.CRITICAL { border-color: var(--danger); }
+        .toast.HIGH     { border-color: var(--orange); }
+        .toast.ELEVATED { border-color: var(--warning); }
+
+        /* ── Log terminal ──────────────────────────────────────────────────── */
+        #log-terminal {
+            max-height: 180px; overflow-y: auto;
+            font-size: 0.78em; font-family: monospace; color: var(--text-muted);
+        }
+        .log-line {
+            padding: 4px 0; border-bottom: 1px solid rgba(255,255,255,0.03);
+            animation: slideIn 0.2s;
+        }
+        .log-line.CRITICAL { color: #fca5a5; }
+        .log-line.warning  { color: #fcd34d; }
+        .log-line.info     { color: #93c5fd; }
+    </style>
+</head>
+<body>
+
+<div id="lockdown-overlay">
+    <div class="alert-popup">
+        <div class="alert-popup-icon">🚨</div>
+        <h2>CRITICAL THREAT DETECTED</h2>
+        <p id="lockdown-msg">Anomalous activity detected in protected zones.</p>
+        <button id="dismiss-overlay-btn">Acknowledge &amp; Dismiss</button>
+    </div>
+</div>
+
+<div id="toast-container"></div>
+
+<header>
+    <div class="logo-area">
+        <div class="logo-icon">S</div>
+        <div>
+            <h1>Sentry Dynamics</h1>
+            <div style="font-size:0.72em;color:var(--text-muted);margin-top:-2px">Behavioral File Integrity Monitor</div>
+        </div>
+    </div>
+    <div class="header-right">
+        <div class="status-badge">
+            <div class="status-dot" id="conn-dot"></div>
+            <span id="conn-label">Connecting...</span>
+        </div>
+        <div id="clock">--:--:--</div>
+    </div>
+</header>
+
+<div class="main-layout">
+
+    <!-- ── Risk Score Gauge ───────────────────────────── -->
+    <div class="panel" id="risk-panel">
+        <div class="panel-title">Risk Score</div>
+        <div class="gauge-wrapper">
+            <svg id="gauge-svg" width="200" height="110" viewBox="0 0 200 110"></svg>
+            <div id="gauge-label">
+                <div id="gauge-score">0</div>
+                <div id="gauge-stage">NORMAL</div>
+            </div>
+        </div>
+        <div class="risk-user-tabs" id="user-tabs"></div>
+        <div class="factor-list" id="factor-list">
+            <div style="text-align:center;color:var(--text-muted);font-size:0.82em;padding:10px">Waiting for events…</div>
+        </div>
+    </div>
+
+    <!-- ── Alert Escalation + SOC ────────────────────── -->
+    <div class="panel" id="escalation-panel">
+        <div class="panel-title">Alert Escalation &amp; SOC Response</div>
+
+        <!-- Stage Pipeline -->
+        <div class="stage-pipeline" id="stage-pipeline">
+            <div class="stage-node active normal" data-stage="NORMAL">
+                <div class="stage-emoji">✅</div>
+                <div class="stage-name">Normal</div>
+                <div class="stage-range">0–25</div>
+            </div>
+            <div class="stage-node" data-stage="ELEVATED">
+                <div class="stage-emoji">⚠️</div>
+                <div class="stage-name">Elevated</div>
+                <div class="stage-range">26–50</div>
+            </div>
+            <div class="stage-node" data-stage="HIGH">
+                <div class="stage-emoji">🔴</div>
+                <div class="stage-name">High</div>
+                <div class="stage-range">51–75</div>
+            </div>
+            <div class="stage-node" data-stage="CRITICAL">
+                <div class="stage-emoji">🚨</div>
+                <div class="stage-name">Critical</div>
+                <div class="stage-range">76–100</div>
+            </div>
+        </div>
+
+        <div class="alert-list" id="alert-list">
+            <div style="color:var(--text-muted);font-size:0.82em;text-align:center;padding:20px">No active alerts</div>
+        </div>
+    </div>
+
+    <!-- ── Behavioral Heatmap ─────────────────────────── -->
+    <div class="panel" id="heatmap-panel">
+        <div class="panel-title">Behavioral Heatmap</div>
+        <div id="heatmap-chart-wrap">
+            <canvas id="heatmap-canvas"></canvas>
+        </div>
+        <div style="font-size:0.72em;color:var(--text-muted);margin-top:8px;text-align:center">Events per hour of day · User: <span id="heatmap-user">system</span></div>
+    </div>
+
+    <!-- ── Forensic Timeline ──────────────────────────── -->
+    <div class="panel" id="timeline-panel">
+        <div class="panel-title">Forensic Event Timeline</div>
+        <div class="timeline-wrap" id="tl-list">
+            <div style="color:var(--text-muted);font-size:0.82em;text-align:center;padding:20px">Activity will appear here…</div>
+        </div>
+    </div>
+
+    <!-- ── Role Clusters ──────────────────────────────── -->
+    <div class="panel" id="clusters-panel">
+        <div class="panel-title">Role Clusters</div>
+        <svg id="cluster-svg"></svg>
+        <div style="font-size:0.72em;color:var(--text-muted);margin-top:6px;text-align:center" id="cluster-info">Waiting for cluster data…</div>
+    </div>
+
+    <!-- ── Stats Row ──────────────────────────────────── -->
+    <div class="panel" id="stats-panel">
+        <div class="panel-title">System Stats</div>
+        <div class="stat-grid">
+            <div class="stat-card">
+                <div class="stat-value" id="s-total" style="color:var(--accent)">0</div>
+                <div class="stat-label">Total Events</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="s-alerts" style="color:var(--danger)">0</div>
+                <div class="stat-label">Open Alerts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="s-deleted" style="color:var(--danger)">0</div>
+                <div class="stat-label">Deletions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="s-cpu" style="color:var(--success)">0%</div>
+                <div class="stat-label">CPU Usage</div>
+            </div>
+        </div>
+        <div style="margin-top:14px">
+            <div class="panel-title" style="margin-bottom:10px">Live Log Feed</div>
+            <div id="log-terminal"></div>
+        </div>
+    </div>
+
+    <!-- ── Directory Topology ─────────────────────────── -->
+    <div class="panel" id="graph-panel">
+        <div class="panel-title">Directory Topology</div>
+        <div id="file-graph"></div>
+    </div>
+
+</div>
+
+<script>
+// ════════════════════════════════════════════════════════════
+//  GLOBALS
+// ════════════════════════════════════════════════════════════
+const STAGES = {
+    NORMAL:   { color: '#10b981', bg: 'rgba(16,185,129,0.15)' },
+    ELEVATED: { color: '#f59e0b', bg: 'rgba(245,158,11,0.15)' },
+    HIGH:     { color: '#f97316', bg: 'rgba(249,115,22,0.15)' },
+    CRITICAL: { color: '#ef4444', bg: 'rgba(239,68,68,0.15)' },
+};
+
+let selectedUser = 'system';
+let riskData = {};          // user -> risk dict
+let alertsData = [];
+let heatmapChart = null;
+
+// ════════════════════════════════════════════════════════════
+//  CLOCK
+// ════════════════════════════════════════════════════════════
+setInterval(() => {
+    document.getElementById('clock').textContent =
+        new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+}, 1000);
+
+// ════════════════════════════════════════════════════════════
+//  GAUGE
+// ════════════════════════════════════════════════════════════
+function drawGauge(score, stage) {
+    const svg = document.getElementById('gauge-svg');
+    svg.innerHTML = '';
+    const cx = 100, cy = 100, r = 85;
+    const startAngle = Math.PI, endAngle = 0;   // half circle
+    const scoreAngle = Math.PI - (score / 100) * Math.PI;
+
+    function arc(a1, a2, fill) {
+        const x1 = cx + r * Math.cos(a1), y1 = cy + r * Math.sin(a1);
+        const x2 = cx + r * Math.cos(a2), y2 = cy + r * Math.sin(a2);
+        const large = Math.abs(a2 - a1) > Math.PI ? 1 : 0;
+        return `M ${x1} ${y1} A ${r} ${r} 0 ${large} 1 ${x2} ${y2}`;
+    }
+
+    // Track
+    const track = document.createElementNS('http://www.w3.org/2000/svg','path');
+    track.setAttribute('d', arc(Math.PI, 0));
+    track.setAttribute('stroke', 'rgba(255,255,255,0.06)');
+    track.setAttribute('stroke-width', '14');
+    track.setAttribute('fill', 'none');
+    track.setAttribute('stroke-linecap', 'round');
+    svg.appendChild(track);
+
+    // Value arc (colored)
+    if (score > 0) {
+        const color = STAGES[stage]?.color || '#10b981';
+        const valueArc = document.createElementNS('http://www.w3.org/2000/svg','path');
+        valueArc.setAttribute('d', arc(Math.PI, scoreAngle));
+        valueArc.setAttribute('stroke', color);
+        valueArc.setAttribute('stroke-width', '14');
+        valueArc.setAttribute('fill', 'none');
+        valueArc.setAttribute('stroke-linecap', 'round');
+        valueArc.setAttribute('filter', `drop-shadow(0 0 6px ${color})`);
+        svg.appendChild(valueArc);
+    }
+
+    // Update label
+    const color = STAGES[stage]?.color || '#10b981';
+    document.getElementById('gauge-score').textContent = Math.round(score);
+    document.getElementById('gauge-score').style.color = color;
+    document.getElementById('gauge-stage').textContent = stage;
+    document.getElementById('gauge-stage').style.color = color;
+}
+
+drawGauge(0, 'NORMAL');
+
+// ════════════════════════════════════════════════════════════
+//  RISK UPDATE
+// ════════════════════════════════════════════════════════════
+function updateRisk(risks) {
+    riskData = {};
+    risks.forEach(r => { riskData[r.user] = r; });
+    renderUserTabs();
+    renderRiskForUser(selectedUser);
+    renderStagePipeline(riskData[selectedUser]?.stage || 'NORMAL');
+}
+
+function renderUserTabs() {
+    const users = Object.keys(riskData);
+    const container = document.getElementById('user-tabs');
+    container.innerHTML = '';
+    users.forEach(u => {
+        const btn = document.createElement('button');
+        btn.className = 'risk-user-tab' + (u === selectedUser ? ' active' : '');
+        btn.textContent = u;
+        btn.onclick = () => {
+            selectedUser = u;
+            document.querySelectorAll('.risk-user-tab').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderRiskForUser(u);
+            renderStagePipeline(riskData[u]?.stage || 'NORMAL');
+            fetchHeatmap(u);
+        };
+        container.appendChild(btn);
+    });
+    if (!users.includes(selectedUser) && users.length > 0) selectedUser = users[0];
+}
+
+function renderRiskForUser(user) {
+    const r = riskData[user];
+    if (!r) { drawGauge(0, 'NORMAL'); return; }
+    drawGauge(r.score, r.stage);
+    renderFactors(r.explanation || []);
+}
+
+function renderFactors(factors) {
+    const container = document.getElementById('factor-list');
+    if (!factors.length) {
+        container.innerHTML = '<div style="text-align:center;color:var(--text-muted);font-size:0.82em;padding:10px">No active risk factors</div>';
+        return;
+    }
+    const maxDelta = Math.max(...factors.map(f => f.delta), 1);
+    container.innerHTML = factors.map(f => `
+        <div class="factor-row">
+            <span class="factor-label">${f.name}</span>
+            <div class="factor-bar-wrap">
+                <div class="factor-bar" style="width:${(f.delta/maxDelta)*100}%;background:${f.delta > 10 ? 'var(--danger)' : f.delta > 4 ? 'var(--warning)' : 'var(--accent)'}"></div>
+            </div>
+            <span class="factor-delta">+${f.delta}</span>
+        </div>
+    `).join('');
+}
+
+// ════════════════════════════════════════════════════════════
+//  STAGE PIPELINE
+// ════════════════════════════════════════════════════════════
+function renderStagePipeline(activeStage) {
+    document.querySelectorAll('.stage-node').forEach(node => {
+        node.classList.remove('active','normal','elevated','high','critical');
+        if (node.dataset.stage === activeStage) {
+            node.classList.add('active', activeStage.toLowerCase());
+        }
+    });
+}
+
+// ════════════════════════════════════════════════════════════
+//  ALERTS
+// ════════════════════════════════════════════════════════════
+function renderAlerts(alerts) {
+    alertsData = alerts;
+    const container = document.getElementById('alert-list');
+    const open = alerts.filter(a => a.status === 'open');
+    if (!open.length) {
+        container.innerHTML = '<div style="color:var(--text-muted);font-size:0.82em;text-align:center;padding:20px">✅ No active alerts</div>';
+        return;
+    }
+    container.innerHTML = open.slice(0, 8).map(a => `
+        <div class="alert-card ${a.stage}" id="alert-${a.id}">
+            <div class="alert-icon">${a.icon || '⚠️'}</div>
+            <div class="alert-body">
+                <div class="alert-title">${a.title}</div>
+                <div class="alert-meta">${new Date(a.ts * 1000).toLocaleTimeString()} · ${a.file || ''}</div>
+                <div class="alert-actions">
+                    <button class="soc-btn dismiss" onclick="socAction('${a.id}','dismiss')">Dismiss</button>
+                    <button class="soc-btn escalate" onclick="socAction('${a.id}','escalate')">Escalate</button>
+                    <button class="soc-btn quarantine" onclick="socAction('${a.id}','quarantine')">Quarantine</button>
+                </div>
+            </div>
+            <div class="alert-status-badge">${a.status.toUpperCase()}</div>
+        </div>
+    `).join('');
+
+    // Update stats
+    document.getElementById('s-alerts').textContent = open.length;
+}
+
+async function socAction(alertId, action) {
+    const card = document.getElementById('alert-' + alertId);
+    if (card) card.style.opacity = '0.4';
+    try {
+        await fetch(`/api/alerts/${alertId}/action`, {
+            method: 'POST',
+            headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({action})
+        });
+        // Refresh alerts after short delay
+        setTimeout(async () => {
+            const resp = await fetch('/api/alerts');
+            const data = await resp.json();
+            renderAlerts(data);
+        }, 500);
+    } catch(e) {
+        if (card) card.style.opacity = '1';
+    }
+}
+
+// ════════════════════════════════════════════════════════════
+//  FORENSIC TIMELINE
+// ════════════════════════════════════════════════════════════
+const MAX_TL_ITEMS = 50;
+const tlItems = [];
+
+function addTimelineEvent(ev) {
+    tlItems.unshift(ev);
+    if (tlItems.length > MAX_TL_ITEMS) tlItems.pop();
+    renderTimeline();
+}
+
+function renderTimeline() {
+    const el = document.getElementById('tl-list');
+    if (!tlItems.length) {
+        el.innerHTML = '<div style="color:var(--text-muted);font-size:0.82em;text-align:center;padding:20px">Activity will appear here…</div>';
+        return;
+    }
+    el.innerHTML = tlItems.map((ev, i) => {
+        const evType = ev.is_canary ? 'CANARY' : ev.event_type;
+        const color = evType === 'CREATED' ? 'var(--success)' : evType === 'DELETED' ? 'var(--danger)' : evType === 'CANARY' ? '#a855f7' : 'var(--warning)';
+        const chains = ev.chains || [];
+        const stage = ev.risk?.stage || 'NORMAL';
+        const stageColor = STAGES[stage]?.color || '#64748b';
+        const ts = new Date(ev.ts * 1000).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+        return `
+            <div class="tl-item">
+                <div class="tl-time">${ts}</div>
+                <div class="tl-dot-col">
+                    <div class="tl-dot ev-${evType}" style="border-color:${color};background:${color}22"></div>
+                    ${i < tlItems.length - 1 ? '<div class="tl-line"></div>' : ''}
+                </div>
+                <div class="tl-content">
+                    <div class="tl-event" style="color:${color}">${evType} ${ev.is_anomaly ? '<span style="color:#a855f7">[ML Anomaly]</span>' : ''}</div>
+                    <div class="tl-file">${ev.file || '—'}</div>
+                    <div class="tl-risk" style="color:${stageColor}">+${ev.risk?.delta || 0} pts → Score: ${Math.round(ev.risk?.new_score || 0)} [${stage}]</div>
+                    ${chains.map(c => `<div class="tl-chain">🔗 ${c.label}</div>`).join('')}
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+// ════════════════════════════════════════════════════════════
+//  BEHAVIORAL HEATMAP (Chart.js)
+// ════════════════════════════════════════════════════════════
+function initHeatmap() {
+    const ctx = document.getElementById('heatmap-canvas').getContext('2d');
+    heatmapChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: Array.from({length:24}, (_,i) => `${i}:00`),
+            datasets: [{
+                label: 'Events/hr',
+                data: new Array(24).fill(0),
+                backgroundColor: Array.from({length:24}, (_,i) => {
+                    return (i >= 21 || i < 6) ? 'rgba(239,68,68,0.5)' : 'rgba(99,102,241,0.5)';
+                }),
+                borderColor: Array.from({length:24}, (_,i) => {
+                    return (i >= 21 || i < 6) ? '#ef4444' : '#6366f1';
+                }),
+                borderWidth: 1,
+                borderRadius: 4,
+            }]
+        },
+        options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+                x: {
+                    grid: { color: 'rgba(255,255,255,0.05)' },
+                    ticks: { color: '#64748b', font: {size: 9},
+                        maxTicksLimit: 8,
+                        callback: function(val, idx) { return idx % 3 === 0 ? this.getLabelForValue(val) : ''; }
+                    }
+                },
+                y: {
+                    grid: { color: 'rgba(255,255,255,0.05)' },
+                    ticks: { color: '#64748b', font: {size: 9} },
+                    beginAtZero: true,
+                }
+            }
+        }
+    });
+}
+
+async function fetchHeatmap(user) {
+    document.getElementById('heatmap-user').textContent = user;
+    try {
+        const resp = await fetch(`/api/users/${user}/heatmap`);
+        const data = await resp.json();
+        if (heatmapChart) {
+            heatmapChart.data.datasets[0].data = data;
+            heatmapChart.update('none');
+        }
+    } catch(e) {}
+}
+
+// ════════════════════════════════════════════════════════════
+//  ROLE CLUSTERS (D3 Bubble)
+// ════════════════════════════════════════════════════════════
+const ROLE_COLORS = ['#6366f1','#10b981','#f59e0b','#ef4444'];
+const ROLE_NAMES  = ['Standard User','Power User','Admin/DevOps','Suspicious'];
+
+function renderClusters(assignments) {
+    if (!assignments || !assignments.length) return;
+    const svgEl = document.getElementById('cluster-svg');
+    const W = svgEl.parentElement.clientWidth || 280, H = 220;
+    svgEl.setAttribute('viewBox', `0 0 ${W} ${H}`);
+
+    d3.select('#cluster-svg').selectAll('*').remove();
+    const svg = d3.select('#cluster-svg');
+
+    const groups = d3.group(assignments, d => d.cluster);
+    const nodes = assignments.map(d => ({...d, r: 18 + Math.random() * 8}));
+
+    const sim = d3.forceSimulation(nodes)
+        .force('charge', d3.forceManyBody().strength(-30))
+        .force('center', d3.forceCenter(W/2, H/2))
+        .force('collide', d3.forceCollide(d => d.r + 4))
+        .force('cluster', () => {
+            const centers = {};
+            groups.forEach((_, k) => {
+                const angle = (k / groups.size) * 2 * Math.PI;
+                centers[k] = { x: W/2 + (W*0.3) * Math.cos(angle), y: H/2 + (H*0.35) * Math.sin(angle) };
+            });
+            nodes.forEach(d => {
+                const c = centers[d.cluster];
+                if (c) { d.vx += (c.x - d.x) * 0.05; d.vy += (c.y - d.y) * 0.05; }
+            });
+        })
+        .alphaDecay(0.03);
+
+    const nodeG = svg.selectAll('.c-node').data(nodes).join('g').attr('class','c-node');
+
+    nodeG.append('circle')
+        .attr('r', d => d.r)
+        .attr('fill', d => ROLE_COLORS[d.cluster] + '33')
+        .attr('stroke', d => ROLE_COLORS[d.cluster] || '#64748b')
+        .attr('stroke-width', 2);
+
+    nodeG.append('text')
+        .text(d => d.user.slice(0,6))
+        .attr('text-anchor','middle').attr('dy','0.35em')
+        .attr('fill', d => ROLE_COLORS[d.cluster])
+        .attr('font-size','9px').attr('font-weight','700');
+
+    nodeG.append('title').text(d => `${d.user} · ${d.role}\nDist: ${d.center_distance}`);
+
+    sim.on('tick', () => {
+        nodeG.attr('transform', d => `translate(${Math.max(d.r, Math.min(W-d.r, d.x))},${Math.max(d.r, Math.min(H-d.r, d.y))})`);
+    });
+
+    const infoEl = document.getElementById('cluster-info');
+    const counts = {};
+    assignments.forEach(a => { counts[a.role] = (counts[a.role]||0)+1; });
+    infoEl.textContent = Object.entries(counts).map(([k,v]) => `${k}: ${v}`).join(' · ');
+}
+
+// ════════════════════════════════════════════════════════════
+//  FILE GRAPH (D3 Force)
+// ════════════════════════════════════════════════════════════
+function initFileGraph(data) {
+    const container = document.getElementById('file-graph');
+    const W = container.clientWidth || 400, H = 220;
+    d3.select('#file-graph').selectAll('*').remove();
+
+    const root = d3.hierarchy(data);
+    const links = root.links(), nodes = root.descendants();
+
+    const svg = d3.select('#file-graph').append('svg').attr('width', W).attr('height', H)
+        .call(d3.zoom().on('zoom', e => g.attr('transform', e.transform)));
+    const g = svg.append('g');
+
+    const sim = d3.forceSimulation(nodes)
+        .force('link', d3.forceLink(links).id(d => d.id).distance(40))
+        .force('charge', d3.forceManyBody().strength(-120))
+        .force('center', d3.forceCenter(W/2, H/2))
+        .force('collide', d3.forceCollide(15));
+
+    const link = g.append('g').selectAll('line').data(links).join('line')
+        .attr('stroke','rgba(255,255,255,0.1)').attr('stroke-width',1.2);
+
+    const node = g.append('g').selectAll('g').data(nodes).join('g')
+        .call(d3.drag()
+            .on('start', (e,d) => { if(!e.active) sim.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+            .on('drag',  (e,d) => { d.fx=e.x; d.fy=e.y; })
+            .on('end',   (e,d) => { if(!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
+
+    node.each(function(d) {
+        const el = d3.select(this);
+        if (d.data.type === 'folder' || !d.data.type) {
+            el.append('rect').attr('width',14).attr('height',14).attr('x',-7).attr('y',-7)
+                .attr('rx',3).attr('fill','var(--accent)').attr('stroke','rgba(255,255,255,0.2)').attr('stroke-width',1);
+        } else {
+            el.append('circle').attr('r',5)
+                .attr('fill','rgba(255,255,255,0.15)').attr('stroke','rgba(255,255,255,0.3)').attr('stroke-width',1);
+        }
+        el.append('title').text(d.data.name);
+    });
+
+    sim.on('tick', () => {
+        link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y)
+            .attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+        node.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
+}
+
+// ════════════════════════════════════════════════════════════
+//  TOAST
+// ════════════════════════════════════════════════════════════
+function showToast(msg, stage) {
+    const t = document.createElement('div');
+    t.className = `toast ${stage || ''}`;
+    t.innerHTML = `${STAGES[stage]?.color ? '' : ''}${msg}`;
+    document.getElementById('toast-container').prepend(t);
+    setTimeout(() => t.remove(), 5000);
+}
+
+// ════════════════════════════════════════════════════════════
+//  LOG TERMINAL
+// ════════════════════════════════════════════════════════════
+function addLog(text, level) {
+    const el = document.getElementById('log-terminal');
+    const line = document.createElement('div');
+    line.className = `log-line ${level || 'info'}`;
+    line.textContent = `${new Date().toLocaleTimeString()} › ${text.slice(0, 150)}`;
+    el.prepend(line);
+    while (el.children.length > 60) el.removeChild(el.lastChild);
+}
+
+// ════════════════════════════════════════════════════════════
+//  STATS
+// ════════════════════════════════════════════════════════════
+async function refreshStats() {
+    try {
+        const resp = await fetch('/api/stats');
+        const d = await resp.json();
+        document.getElementById('s-total').textContent = d.total_events;
+        document.getElementById('s-deleted').textContent = d.total_deleted;
+    } catch(e) {}
+}
+setInterval(refreshStats, 5000);
+
+// ════════════════════════════════════════════════════════════
+//  WEBSOCKET
+// ════════════════════════════════════════════════════════════
+function connect() {
+    const ws = new WebSocket(`ws://${location.host}/ws`);
+    const dot = document.getElementById('conn-dot');
+    const label = document.getElementById('conn-label');
+
+    ws.onopen = () => {
+        dot.style.background = 'var(--success)';
+        dot.style.boxShadow = '0 0 8px var(--success)';
+        label.textContent = 'Connected';
+    };
+
+    ws.onclose = () => {
+        dot.style.background = 'var(--danger)';
+        label.textContent = 'Disconnected';
+        setTimeout(connect, 3000);
+    };
+
+    ws.onmessage = ({ data }) => {
+        let msg;
+        try { msg = JSON.parse(data); } catch(e) { return; }
+
+        switch(msg.type) {
+            case 'tree':
+                initFileGraph(msg.data);
+                break;
+
+            case 'log':
+                const lvl = msg.data.includes('CRITICAL') ? 'CRITICAL' :
+                            msg.data.includes('WARNING')  ? 'warning'  : 'info';
+                addLog(msg.data, lvl);
+                break;
+
+            case 'event': {
+                const ev = msg.data;
+                addTimelineEvent(ev);
+                addLog(ev.log || ev.file, ev.is_anomaly ? 'warning' : 'info');
+                // Update stats counters
+                const tot = parseInt(document.getElementById('s-total').textContent) || 0;
+                document.getElementById('s-total').textContent = tot + 1;
+                if (ev.event_type === 'DELETED') {
+                    const del = parseInt(document.getElementById('s-deleted').textContent) || 0;
+                    document.getElementById('s-deleted').textContent = del + 1;
+                }
+                break;
+            }
+
+            case 'risk_update':
+            case 'risk_snapshot':
+                updateRisk(msg.data);
+                fetchHeatmap(selectedUser);
+                break;
+
+            case 'stats':
+                document.getElementById('s-cpu').textContent = msg.data.cpu.toFixed(0) + '%';
+                break;
+
+            case 'new_alerts':
+                msg.data.forEach(a => {
+                    showToast(`${a.title}`, a.stage);
+                    if (a.stage === 'CRITICAL') {
+                        document.getElementById('lockdown-overlay').classList.add('active');
+                        document.getElementById('lockdown-msg').textContent =
+                            `Threat detected for user "${a.user}". File: ${a.file || 'unknown'}`;
+                    }
+                });
+                break;
+
+            case 'alerts_snapshot':
+                renderAlerts(msg.data);
+                break;
+
+            case 'alert_update':
+                fetch('/api/alerts').then(r=>r.json()).then(renderAlerts);
+                break;
+
+            case 'chains':
+                msg.data.forEach(c => showToast(`🔗 Attack Chain: ${c.label} — ${c.description}`, c.severity));
+                break;
+
+            case 'clusters':
+                renderClusters(msg.data);
+                break;
+        }
+    };
+}
+
+// ════════════════════════════════════════════════════════════
+//  INIT
+// ════════════════════════════════════════════════════════════
+document.getElementById('dismiss-overlay-btn').onclick = () => {
+    document.getElementById('lockdown-overlay').classList.remove('active');
+};
+
+initHeatmap();
+connect();
+
+// Load initial data
+(async () => {
+    try {
+        const [risks, alerts, clusters] = await Promise.all([
+            fetch('/api/risk').then(r => r.json()),
+            fetch('/api/alerts').then(r => r.json()),
+            fetch('/api/clusters').then(r => r.json()),
+        ]);
+        updateRisk(risks);
+        renderAlerts(alerts);
+        renderClusters(clusters);
+        fetchHeatmap(selectedUser);
+        refreshStats();
+    } catch(e) { console.warn('Init fetch failed', e); }
+})();
+
+// Refresh clusters every 30s
+setInterval(async () => {
+    try {
+        const d = await fetch('/api/clusters').then(r => r.json());
+        renderClusters(d);
+    } catch(e) {}
+}, 30000);
+</script>
+</body>
+</html>
