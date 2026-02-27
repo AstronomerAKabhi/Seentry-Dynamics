@@ -81,7 +81,7 @@ def store_event(event_type: str, file_path: str, user: str = "system",
             """INSERT INTO events (timestamp, event_type, file_path, user, process, risk_delta, is_anomaly, stage)
                VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
             (time.time(), event_type, file_path, user, process,
-             round(risk_delta, 2), int(is_anomaly), stage)
+             round(float(risk_delta), 2), int(is_anomaly), stage)  # type: ignore[call-overload]
         )
 
 
@@ -143,12 +143,12 @@ def get_alerts(limit: int = 50, status: Optional[str] = None) -> list:
             ).fetchall()
     result = []
     for r in rows:
-        d = dict(r)
+        d: dict = dict(r)
         try:
             parsed = json.loads(d.get("factors") or "[]")
-            d["factors"] = parsed if isinstance(parsed, list) else []
+            d["factors"] = parsed if isinstance(parsed, list) else []  # type: ignore[assignment]
         except Exception:
-            d["factors"] = []
+            d["factors"] = []  # type: ignore[assignment]
         result.append(d)
     return result
 
@@ -167,7 +167,7 @@ def log_risk(user: str, score: float, stage: str, explanation: list):
     with _lock, _get_conn() as conn:
         conn.execute(
             "INSERT INTO risk_log (timestamp, user, score, stage, explanation) VALUES (?, ?, ?, ?, ?)",
-            (time.time(), user, round(score, 2), stage, json.dumps(explanation))
+            (time.time(), user, round(float(score), 2), stage, json.dumps(explanation))  # type: ignore[call-overload]
         )
 
 
@@ -179,12 +179,12 @@ def get_risk_history(user: str, limit: int = 50) -> list:
         ).fetchall()
     result = []
     for r in rows:
-        d = dict(r)
+        d: dict = dict(r)
         try:
             parsed = json.loads(d.get("explanation") or "[]")
-            d["explanation"] = parsed if isinstance(parsed, list) else []
+            d["explanation"] = parsed if isinstance(parsed, list) else []  # type: ignore[assignment]
         except Exception:
-            d["explanation"] = []
+            d["explanation"] = []  # type: ignore[assignment]
         result.append(d)
     return result
 
@@ -205,12 +205,12 @@ def get_clusters() -> list:
         rows = conn.execute("SELECT * FROM clusters ORDER BY cluster_id").fetchall()
     result = []
     for r in rows:
-        d = dict(r)
+        d: dict = dict(r)
         try:
             parsed = json.loads(d.get("features") or "[]")
-            d["features"] = parsed if isinstance(parsed, list) else []
+            d["features"] = parsed if isinstance(parsed, list) else []  # type: ignore[assignment]
         except Exception:
-            d["features"] = []
+            d["features"] = []  # type: ignore[assignment]
         result.append(d)
     return result
 

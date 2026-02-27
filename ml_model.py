@@ -8,9 +8,10 @@ import threading
 from typing import Optional
 
 try:
-    import numpy as np
+    import numpy as np  # pyre-ignore[21]
 except ImportError:
-    np = None  # type: ignore
+    from typing import Any as _Any
+    np: _Any = None  # type: ignore[assignment]
 
 RETRAIN_INTERVAL = 50   # retrain after this many new events
 MIN_SAMPLES = 10        # minimum events before training
@@ -42,19 +43,19 @@ class AnomalyDetector:
             if not self._trained or self._model is None:
                 return False, 0.0
             try:
-                X = np.array([features])
-                pred = self._model.predict(X)[0]       # -1 = anomaly, 1 = normal
-                score = self._model.score_samples(X)[0]  # log-likelihood; lower = more anomalous
+                X = np.array([features])  # type: ignore[union-attr]
+                pred = self._model.predict(X)[0]       # type: ignore[union-attr]  # -1 = anomaly, 1 = normal
+                score = self._model.score_samples(X)[0]  # type: ignore[union-attr]  # log-likelihood; lower = more anomalous
                 return pred == -1, float(score)
             except Exception:
                 return False, 0.0
 
     def _retrain(self):
         try:
-            from sklearn.ensemble import IsolationForest
+            from sklearn.ensemble import IsolationForest  # type: ignore[import-untyped]  # pyre-ignore[21]
             if np is None:
                 raise ImportError("numpy not available")
-            X = np.array(self._buffer[-500:])  # use last 500 samples
+            X = np.array(self._buffer[-500:])  # type: ignore[index]  # use last 500 samples
             model = IsolationForest(
                 n_estimators=100,
                 contamination=self._contamination,
@@ -96,9 +97,9 @@ class RoleClusterer:
         if len(user_features) < self.K:
             return  # not enough users yet
         try:
-            from sklearn.cluster import KMeans
+            from sklearn.cluster import KMeans  # type: ignore[import-untyped]
             users = list(user_features.keys())
-            X = np.array(list(user_features.values()))
+            X = np.array(list(user_features.values()))  # type: ignore[index]
             model = KMeans(n_clusters=self.K, random_state=42, n_init=10)
             model.fit(X)
             with self._lock:
@@ -114,7 +115,7 @@ class RoleClusterer:
             if not self._trained or self._model is None:
                 return -1, "Unknown"
             try:
-                cluster_id = int(self._model.predict(np.array([features]))[0])
+                cluster_id = int(self._model.predict(np.array([features]))[0])  # type: ignore[union-attr]
                 return cluster_id, self.ROLE_LABELS.get(cluster_id, "Unknown")
             except Exception:
                 return -1, "Unknown"
@@ -127,18 +128,18 @@ class RoleClusterer:
                 return [{"user": u, "cluster": -1, "role": "Unknown"} for u in user_features]
             try:
                 users = list(user_features.keys())
-                X = np.array(list(user_features.values()))
-                labels = self._model.predict(X)
-                centers = self._model.cluster_centers_
+                X = np.array(list(user_features.values()))  # type: ignore[union-attr]
+                labels = self._model.predict(X)  # type: ignore[union-attr]
+                centers = self._model.cluster_centers_  # type: ignore[union-attr]
                 for i, user in enumerate(users):
                     c = int(labels[i])
                     results.append({
                         "user": user,
                         "cluster": c,
                         "role": self.ROLE_LABELS.get(c, "Unknown"),
-                        "features": [round(f, 3) for f in user_features[user]],
-                        "center_distance": round(
-                            float(np.linalg.norm(np.array(user_features[user]) - centers[c])), 3
+                        "features": [round(float(f), 3) for f in user_features[user]],  # type: ignore[call-overload]
+                        "center_distance": round(  # type: ignore[call-overload]
+                            float(np.linalg.norm(np.array(user_features[user]) - centers[c])), 3  # type: ignore[union-attr]
                         )
                     })
             except Exception:

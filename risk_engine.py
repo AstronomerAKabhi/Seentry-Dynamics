@@ -51,11 +51,11 @@ class UserRisk:
     def apply_delta(self, delta: float, factors: list):
         self.score = max(0.0, min(100.0, self.score + delta))
         self.stage = _get_stage(self.score)
-        self.explanation = factors[-10:]  # keep last 10 factors
+        self.explanation = factors[-10:]  # type: ignore[index]  # keep last 10 factors
         self.last_updated = time.time()
         self.history.append({
             "ts": self.last_updated,
-            "score": float(round(self.score, 2)),
+            "score": float(round(float(self.score), 2)),  # type: ignore[call-overload]
             "stage": str(self.stage.get("name", "NORMAL")),
         })
         if len(self.history) > 200:
@@ -70,7 +70,7 @@ class UserRisk:
     def to_dict(self) -> dict:
         return {
             "user": self.user_id,
-            "score": float(round(self.score, 1)),
+            "score": float(round(float(self.score), 1)),  # type: ignore[call-overload]
             "stage": str(self.stage.get("name", "NORMAL")),
             "stage_color": str(self.stage.get("color", "#10b981")),
             "stage_icon": str(self.stage.get("icon", "OK")),
@@ -119,7 +119,7 @@ class RiskEngine:
 
         # 2. Anomaly multiplier
         if is_anomaly:
-            bonus = round(base * (ANOMALY_MULTIPLIER - 1), 2)
+            bonus = round(float(base) * (ANOMALY_MULTIPLIER - 1), 2)  # type: ignore[call-overload]
             factors.append({"name": "ML Anomaly Flag", "delta": bonus})
             delta += bonus
 
@@ -135,7 +135,7 @@ class RiskEngine:
 
         # 5. Behavioral deviation
         if deviation_score > 0.3:
-            dev_bonus = round(deviation_score * 8, 2)
+            dev_bonus = round(float(deviation_score) * 8, 2)  # type: ignore[call-overload]
             factors.append({"name": f"Behavioral Deviation ({deviation_score:.2f})", "delta": dev_bonus})
             delta += dev_bonus
 
@@ -146,7 +146,7 @@ class RiskEngine:
             delta += bonus
 
         # Round delta
-        delta = round(delta, 2)
+        delta = round(float(delta), 2)  # type: ignore[call-overload]
 
         with self._lock:
             if user not in self._risks:
@@ -208,7 +208,7 @@ class RiskEngine:
         icon = str(stage_info.get("icon", "!!"))
         color = str(stage_info.get("color", "#ef4444"))
         alert = {
-            "id": str(uuid.uuid4()).replace("-", "")[:8],
+            "id": str(uuid.uuid4()).replace("-", "")[:8],  # type: ignore[index]
             "user": user,
             "stage": stage,
             "color": color,

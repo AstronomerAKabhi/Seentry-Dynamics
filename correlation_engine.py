@@ -140,7 +140,8 @@ class CorrelationEngine:
             if now - last_t < self._cooldown:
                 continue  # still cooling down
             try:
-                if pattern["check"](window):
+                check_fn = pattern["check"]  # type: ignore[index]
+                if check_fn(window):
                     self._last_fired[user][pid] = now
                     chain = {
                         "id": pid,
@@ -160,7 +161,7 @@ class CorrelationEngine:
         return triggered
 
     def get_recent_chains(self, limit: int = 20) -> list[dict]:
-        return sorted(self._detected_chains[-limit:], key=lambda x: -x["ts"])
+        return sorted(self._detected_chains[-limit:], key=lambda x: -x["ts"])  # type: ignore[index]
 
     def get_window_size(self, user: str) -> int:
         return len(self._windows.get(user, []))
