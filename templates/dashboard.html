@@ -181,7 +181,7 @@
             background: var(--accent);
         }
 
-        /* ── Risk Score Gauge ──────────────────────────────────────────────── */
+        /* ── Risk Score Display ─────────────────────────────────────────────── */
         #risk-panel {
             grid-column: 1;
             grid-row: 1;
@@ -190,34 +190,34 @@
             align-items: stretch;
         }
 
-        .gauge-wrapper {
-            width: 200px;
-            margin: 0 auto 12px;
-        }
-
-        #gauge-svg {
-            display: block;
-            overflow: visible;
-        }
-
-        #gauge-label {
-            display: none;
+        .score-display {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 0 16px;
+            gap: 10px;
         }
 
         #gauge-score {
-            font-size: 2.4em;
+            font-size: 4.5em;
             font-weight: 700;
-            color: var(--success);
             line-height: 1;
+            letter-spacing: -2px;
+            color: var(--success);
+            filter: drop-shadow(0 0 18px currentColor);
         }
 
         #gauge-stage {
-            font-size: 0.75em;
+            font-size: 0.78em;
             font-weight: 700;
-            letter-spacing: 0.1em;
-            color: var(--success);
+            letter-spacing: 0.14em;
             text-transform: uppercase;
-            margin-top: 2px;
+            padding: 5px 18px;
+            border-radius: 50px;
+            border: 1.5px solid currentColor;
+            color: var(--success);
+            background: rgba(16, 185, 129, 0.1);
         }
 
         .risk-user-tabs {
@@ -860,15 +860,12 @@
 
     <div class="main-layout">
 
-        <!-- ── Risk Score Gauge ───────────────────────────── -->
+        <!-- ── Risk Score ─────────────────────────────────── -->
         <div class="panel" id="risk-panel">
             <div class="panel-title">Risk Score</div>
-            <div class="gauge-wrapper">
-                <svg id="gauge-svg" width="200" height="120" viewBox="0 0 200 120"></svg>
-                <div id="gauge-label">
-                    <div id="gauge-score">0</div>
-                    <div id="gauge-stage">NORMAL</div>
-                </div>
+            <div class="score-display">
+                <div id="gauge-score">0</div>
+                <div id="gauge-stage">NORMAL</div>
             </div>
             <div class="risk-user-tabs" id="user-tabs"></div>
             <div class="factor-list" id="factor-list">
@@ -1001,71 +998,16 @@
         //  GAUGE
         // ════════════════════════════════════════════════════════════
         function drawGauge(score, stage) {
-            const svg = document.getElementById('gauge-svg');
-            svg.innerHTML = '';
-
-            // Geometry: semicircle, flat edge at bottom
-            // cy=108 so arc top ~= 108-80=28, endpoints at y=108 (inside 120px viewBox)
-            const cx = 100, cy = 108, r = 80;
-            const scoreAngle = Math.PI - (score / 100) * Math.PI;
-
-            function arcPath(a1, a2) {
-                const x1 = cx + r * Math.cos(a1), y1 = cy + r * Math.sin(a1);
-                const x2 = cx + r * Math.cos(a2), y2 = cy + r * Math.sin(a2);
-                const large = Math.abs(a2 - a1) > Math.PI ? 1 : 0;
-                return `M ${x1} ${y1} A ${r} ${r} 0 ${large} 1 ${x2} ${y2}`;
-            }
-
-            const ns = 'http://www.w3.org/2000/svg';
-
-            // Track (background arc)
-            const track = document.createElementNS(ns, 'path');
-            track.setAttribute('d', arcPath(Math.PI, 0));
-            track.setAttribute('stroke', 'rgba(255,255,255,0.08)');
-            track.setAttribute('stroke-width', '13');
-            track.setAttribute('fill', 'none');
-            track.setAttribute('stroke-linecap', 'round');
-            svg.appendChild(track);
-
-            // Colored value arc
             const color = STAGES[stage]?.color || '#10b981';
-            if (score > 0) {
-                const valueArc = document.createElementNS(ns, 'path');
-                valueArc.setAttribute('d', arcPath(Math.PI, scoreAngle));
-                valueArc.setAttribute('stroke', color);
-                valueArc.setAttribute('stroke-width', '13');
-                valueArc.setAttribute('fill', 'none');
-                valueArc.setAttribute('stroke-linecap', 'round');
-                valueArc.setAttribute('filter', `drop-shadow(0 0 6px ${color})`);
-                svg.appendChild(valueArc);
-            }
-
-            // Score number — centered inside the arc opening
-            const scoreText = document.createElementNS(ns, 'text');
-            scoreText.setAttribute('x', cx);
-            scoreText.setAttribute('y', cy - 42);
-            scoreText.setAttribute('text-anchor', 'middle');
-            scoreText.setAttribute('dominant-baseline', 'auto');
-            scoreText.setAttribute('font-size', '38');
-            scoreText.setAttribute('font-weight', '700');
-            scoreText.setAttribute('font-family', 'Outfit, sans-serif');
-            scoreText.setAttribute('fill', color);
-            scoreText.textContent = Math.round(score);
-            svg.appendChild(scoreText);
-
-            // Stage label — below the score
-            const stageText = document.createElementNS(ns, 'text');
-            stageText.setAttribute('x', cx);
-            stageText.setAttribute('y', cy - 24);
-            stageText.setAttribute('text-anchor', 'middle');
-            stageText.setAttribute('dominant-baseline', 'auto');
-            stageText.setAttribute('font-size', '11');
-            stageText.setAttribute('font-weight', '700');
-            stageText.setAttribute('font-family', 'Outfit, sans-serif');
-            stageText.setAttribute('fill', color);
-            stageText.setAttribute('letter-spacing', '1.5');
-            stageText.textContent = stage;
-            svg.appendChild(stageText);
+            const bg = STAGES[stage]?.bg || 'rgba(16,185,129,0.1)';
+            const scoreEl = document.getElementById('gauge-score');
+            const stageEl = document.getElementById('gauge-stage');
+            scoreEl.textContent = Math.round(score);
+            scoreEl.style.color = color;
+            stageEl.textContent = stage;
+            stageEl.style.color = color;
+            stageEl.style.borderColor = color;
+            stageEl.style.background = bg;
         }
 
         drawGauge(0, 'NORMAL');
