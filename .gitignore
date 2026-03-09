@@ -12,6 +12,7 @@ env/
 
 # Logs & runtime outputs
 fim_events.log
+fim_data.db
 
 # Environment variables
 .env
@@ -24,7 +25,8 @@ test_monitored/*
 Thumbs.db
 .DS_Store
 
-# IDE
+# IDE / type checker configs
 .vscode/
 .idea/
 pyrightconfig.json
+.pyre_configuration
