@@ -168,7 +168,7 @@ On startup, `canary.py` writes **11 hidden decoy files** (`passwords.txt`, `admi
 
 ## 👤 Author
 
-**Abhishek P** — Department of Computer Science  
+**Abhishek P** — Department of Computer Science (Cyber Security) 
 Project: *Behavioral File Integrity Monitoring with Active Defense*
 
 ---
