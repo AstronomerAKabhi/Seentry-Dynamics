@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs & runtime outputs
+fim_events.log
+
+# Environment variables
+.env
+
+# Runtime-generated canary/honeypot files (deployed by FIMMonitor at runtime)
+test_monitored/*
+!test_monitored/.gitkeep
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+pyrightconfig.json

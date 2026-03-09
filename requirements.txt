@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+psutil
+websockets
+python-pptx
+python-docx
+jinja2
+requests
